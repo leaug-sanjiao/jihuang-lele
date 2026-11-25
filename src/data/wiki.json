@@ -1,0 +1,2872 @@
+{
+  "checkedAt": "2026-11-24",
+  "sources": {
+    "build": {
+      "title": "制造图鉴",
+      "url": "https://wiki.biligame.com/jikunhuangye/%E5%88%B6%E9%80%A0%E5%9B%BE%E9%89%B4",
+      "revision": 2602,
+      "updated": "2024-03-22",
+      "revisionUrl": "https://wiki.biligame.com/jikunhuangye/index.php?title=%E5%88%B6%E9%80%A0%E5%9B%BE%E9%89%B4&oldid=2602",
+      "rowCount": 1
+    },
+    "gear": {
+      "title": "装备图鉴",
+      "url": "https://wiki.biligame.com/jikunhuangye/%E8%A3%85%E5%A4%87%E5%9B%BE%E9%89%B4",
+      "revision": 2600,
+      "updated": "2024-03-22",
+      "revisionUrl": "https://wiki.biligame.com/jikunhuangye/index.php?title=%E8%A3%85%E5%A4%87%E5%9B%BE%E9%89%B4&oldid=2600",
+      "rowCount": 4
+    },
+    "food": {
+      "title": "食物图鉴",
+      "url": "https://wiki.biligame.com/jikunhuangye/%E9%A3%9F%E7%89%A9%E5%9B%BE%E9%89%B4",
+      "revision": 2599,
+      "updated": "2024-03-22",
+      "revisionUrl": "https://wiki.biligame.com/jikunhuangye/index.php?title=%E9%A3%9F%E7%89%A9%E5%9B%BE%E9%89%B4&oldid=2599",
+      "rowCount": 207
+    },
+    "items": {
+      "title": "道具图鉴",
+      "url": "https://wiki.biligame.com/jikunhuangye/%E9%81%93%E5%85%B7%E5%9B%BE%E9%89%B4",
+      "revision": 2601,
+      "updated": "2024-03-22",
+      "revisionUrl": "https://wiki.biligame.com/jikunhuangye/index.php?title=%E9%81%93%E5%85%B7%E5%9B%BE%E9%89%B4&oldid=2601",
+      "rowCount": 164
+    }
+  },
+  "recipes": [
+    {
+      "name": "营火",
+      "kind": "craft",
+      "category": "照明",
+      "ingredients": [
+        {
+          "item": "草",
+          "quantity": 3
+        },
+        {
+          "item": "木头",
+          "quantity": 2
+        }
+      ],
+      "source": "build"
+    },
+    {
+      "name": "斧头",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        {
+          "item": "树枝",
+          "quantity": 1
+        },
+        {
+          "item": "燧石",
+          "quantity": 1
+        }
+      ],
+      "source": "gear"
+    },
+    {
+      "name": "木甲",
+      "kind": "craft",
+      "category": "护甲",
+      "ingredients": [
+        {
+          "item": "木头",
+          "quantity": 8
+        },
+        {
+          "item": "绳子",
+          "quantity": 2
+        }
+      ],
+      "source": "gear"
+    },
+    {
+      "name": "火腿棒",
+      "kind": "craft",
+      "category": "武器",
+      "ingredients": [
+        {
+          "item": "猪皮",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        },
+        {
+          "item": "肉",
+          "quantity": 2
+        }
+      ],
+      "source": "gear"
+    },
+    {
+      "name": "步行手杖",
+      "kind": "craft",
+      "category": "武器",
+      "ingredients": [
+        {
+          "item": "金块",
+          "quantity": 2
+        },
+        {
+          "item": "海象牙",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 4
+        }
+      ],
+      "source": "gear"
+    },
+    {
+      "name": "培根煎蛋",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "肉",
+          "quantity": 1
+        },
+        {
+          "item": "小肉",
+          "quantity": 1
+        },
+        {
+          "item": "鸟蛋",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "1.5肉度2蛋度",
+        "restriction": "×蔬菜度",
+        "seconds": "40",
+        "health": "20",
+        "hunger": "75",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "失败料理",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": null,
+      "source": "food",
+      "food": {
+        "health": "0",
+        "hunger": "0",
+        "sanity": "0"
+      },
+      "reference": "树枝*1+恶魔燃料*1+怪物肉*1+冰*1",
+      "mentions": [
+        "树枝",
+        "恶魔燃料",
+        "怪物肉",
+        "冰"
+      ],
+      "note": "Wiki 将这项列为烹饪失败产物，保留原表示例。"
+    },
+    {
+      "name": "蘑菇蛋糕",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "月亮蘑菇",
+          "quantity": 1
+        },
+        {
+          "item": "采摘的红蘑菇",
+          "quantity": 1
+        },
+        {
+          "item": "采摘的绿蘑菇",
+          "quantity": 1
+        },
+        {
+          "item": "采摘的蓝蘑菇",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "20",
+        "health": "0",
+        "hunger": "25",
+        "sanity": "10"
+      }
+    },
+    {
+      "name": "夏日冰沙",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": null,
+      "source": "food",
+      "food": {
+        "health": "15",
+        "hunger": "0",
+        "sanity": "20"
+      },
+      "reference": "仙人掌肉*1+饮用水*1+冰*1+浆果*2",
+      "mentions": [
+        "仙人掌肉",
+        "饮用水",
+        "冰",
+        "浆果"
+      ],
+      "note": "Wiki 示例共 5 份材料，投料方式待核实。"
+    },
+    {
+      "name": "蒸树枝",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "树枝",
+          "quantity": 4
+        }
+      ],
+      "source": "food",
+      "food": {
+        "health": "15",
+        "hunger": "100",
+        "sanity": "0"
+      }
+    },
+    {
+      "name": "什锦干果",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "烤桦木果",
+          "quantity": 1
+        },
+        {
+          "item": "浆果",
+          "quantity": 2
+        },
+        {
+          "item": "树枝",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "30",
+        "hunger": "12.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "叶肉糕",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "食人花肉",
+          "quantity": 2
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "40",
+        "health": "8",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "生鲜萨尔萨酱",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "番茄",
+          "quantity": 1
+        },
+        {
+          "item": "洋葱",
+          "quantity": 1
+        },
+        {
+          "item": "浆果",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "3",
+        "hunger": "25",
+        "sanity": "33"
+      }
+    },
+    {
+      "name": "太妃糖",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "蜂蜜",
+          "quantity": 3
+        },
+        {
+          "item": "树枝",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "restriction": "×肉度",
+        "seconds": "40",
+        "health": "-3",
+        "hunger": "25",
+        "sanity": "15"
+      }
+    },
+    {
+      "name": "华夫饼",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "鸟蛋",
+          "quantity": 1
+        },
+        {
+          "item": "浆果",
+          "quantity": 2
+        },
+        {
+          "item": "黄油",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "60",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "龙虾浓汤",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "龙虾",
+          "quantity": 1
+        },
+        {
+          "item": "冰",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "1龙虾1冰",
+        "seconds": "20",
+        "health": "60",
+        "hunger": "25",
+        "sanity": "10"
+      }
+    },
+    {
+      "name": "无花果蛙腿三明治",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "无花果",
+          "quantity": 1
+        },
+        {
+          "item": "蛙腿",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "20",
+        "health": "8",
+        "hunger": "18.8",
+        "sanity": "10"
+      }
+    },
+    {
+      "name": "蜜汁火腿",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "蜂蜜",
+          "quantity": 1
+        },
+        {
+          "item": "肉",
+          "quantity": 1
+        },
+        {
+          "item": "怪物肉",
+          "quantity": 1
+        },
+        {
+          "item": "浆果",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "2肉度",
+        "restriction": "×树枝",
+        "seconds": "40",
+        "health": "30",
+        "hunger": "75",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "蜜汁卤肉",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "蜂蜜",
+          "quantity": 1
+        },
+        {
+          "item": "小肉",
+          "quantity": 1
+        },
+        {
+          "item": "浆果",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "0.5肉度1蜂蜜",
+        "restriction": "×2肉度树枝",
+        "seconds": "40",
+        "health": "20",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "彩虹糖豆",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "蜂王浆",
+          "quantity": 1
+        },
+        {
+          "item": "浆果",
+          "quantity": 3
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "50",
+        "health": "2",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "琥珀美食",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "尘土块",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 3
+        }
+      ],
+      "source": "food",
+      "food": {
+        "restriction": "给尘娥食用",
+        "health": "12.5"
+      }
+    },
+    {
+      "name": "辣椒炖肉",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "怪物肉",
+          "quantity": 1
+        },
+        {
+          "item": "小肉",
+          "quantity": 1
+        },
+        {
+          "item": "胡萝卜",
+          "quantity": 1
+        },
+        {
+          "item": "采摘的红蘑菇",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "20",
+        "hunger": "37.5"
+      }
+    },
+    {
+      "name": "藤壶皮塔饼",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "藤壶",
+          "quantity": 1
+        },
+        {
+          "item": "采摘的红蘑菇",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "40",
+        "health": "20",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "芦笋汤",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "芦笋",
+          "quantity": 2
+        },
+        {
+          "item": "浆果",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "20",
+        "hunger": "18.8",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "南瓜饼干",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "蜂蜜",
+          "quantity": 2
+        },
+        {
+          "item": "树枝",
+          "quantity": 1
+        },
+        {
+          "item": "南瓜",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "40",
+        "hunger": "37.5",
+        "sanity": "15"
+      }
+    },
+    {
+      "name": "果酱",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "浆果",
+          "quantity": 4
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "3",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "龙虾正餐",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "龙虾",
+          "quantity": 1
+        },
+        {
+          "item": "黄油",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "20",
+        "health": "60",
+        "hunger": "37.5",
+        "sanity": "50"
+      }
+    },
+    {
+      "name": "舒缓茶",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "必忘我",
+          "quantity": 1
+        },
+        {
+          "item": "蜂蜜",
+          "quantity": 1
+        },
+        {
+          "item": "冰",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "restriction": "×肉度树枝",
+        "seconds": "20",
+        "health": "3",
+        "sanity": "15+30"
+      }
+    },
+    {
+      "name": "蛙腿三明治",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "蛙腿",
+          "quantity": 1
+        },
+        {
+          "item": "胡萝卜",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "0.5蔬菜度1蛙腿",
+        "seconds": "10",
+        "health": "20",
+        "hunger": "18.8",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "炖兔子",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "小肉",
+          "quantity": 1
+        },
+        {
+          "item": "冰",
+          "quantity": 2
+        },
+        {
+          "item": "番茄",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "health": "20",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "波兰水饺",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "鸟蛋",
+          "quantity": 1
+        },
+        {
+          "item": "小肉",
+          "quantity": 1
+        },
+        {
+          "item": "浆果",
+          "quantity": 1
+        },
+        {
+          "item": "烤绿蘑菇",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "1蔬菜度1蛋度0.5肉度",
+        "restriction": "×肉度树枝",
+        "seconds": "20",
+        "health": "40",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "腌笃鲜",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "竹笋",
+          "quantity": 1
+        },
+        {
+          "item": "小肉",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "health": "30",
+        "hunger": "30",
+        "sanity": "30"
+      }
+    },
+    {
+      "name": "香蕉冻",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "洞穴香蕉",
+          "quantity": 1
+        },
+        {
+          "item": "冰",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "20",
+        "hunger": "12.5",
+        "sanity": "33"
+      }
+    },
+    {
+      "name": "火鸡大餐",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "鸟腿",
+          "quantity": 2
+        },
+        {
+          "item": "小肉",
+          "quantity": 1
+        },
+        {
+          "item": "胡萝卜",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "2肉度",
+        "restriction": "×树枝",
+        "seconds": "15",
+        "health": "20",
+        "hunger": "75",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "早餐锅",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "鸟蛋",
+          "quantity": 1
+        },
+        {
+          "item": "胡萝卜",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "health": "20",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "鳄梨酱",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "仙人掌肉",
+          "quantity": 3
+        },
+        {
+          "item": "鼹鼠",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "hunger": "20",
+        "sanity": "37.5"
+      }
+    },
+    {
+      "name": "藤壶中细面",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "藤壶",
+          "quantity": 2
+        },
+        {
+          "item": "胡萝卜",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "40",
+        "health": "10",
+        "hunger": "75",
+        "sanity": "20"
+      }
+    },
+    {
+      "name": "爆炒填馅辣椒",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "辣椒",
+          "quantity": 1
+        },
+        {
+          "item": "小肉",
+          "quantity": 1
+        },
+        {
+          "item": "浆果",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "1辣椒",
+        "restriction": "×树枝",
+        "seconds": "40",
+        "health": "30",
+        "hunger": "25",
+        "sanity": "-5"
+      }
+    },
+    {
+      "name": "蝴蝶松饼",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "胡萝卜",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        },
+        {
+          "item": "蝴蝶翅膀",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "40",
+        "health": "20",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "普通煎蛋",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "鸟蛋",
+          "quantity": 2
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "health": "3",
+        "hunger": "50",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "酿茄子",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": null,
+      "source": "food",
+      "food": {
+        "criteria": "0.5蔬菜度",
+        "restriction": "40",
+        "seconds": "15",
+        "health": "3",
+        "hunger": "37.5",
+        "sanity": "5"
+      },
+      "reference": "茄子*1+胡萝卜*1+树枝*2",
+      "mentions": [
+        "茄子",
+        "胡萝卜",
+        "树枝"
+      ],
+      "note": "Wiki 的烹饪限制栏填了数字 40，条件待核实。"
+    },
+    {
+      "name": "牛肉绿叶菜",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "食人花肉",
+          "quantity": 1
+        },
+        {
+          "item": "胡萝卜",
+          "quantity": 3
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "40",
+        "health": "40",
+        "hunger": "75",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "奶油土豆泥",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "土豆",
+          "quantity": 2
+        },
+        {
+          "item": "大蒜",
+          "quantity": 1
+        },
+        {
+          "item": "胡萝卜",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "restriction": "×肉度蛋度树枝",
+        "seconds": "20",
+        "health": "20",
+        "hunger": "37.5",
+        "sanity": "33"
+      }
+    },
+    {
+      "name": "鱼肉玉米卷",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "鱼",
+          "quantity": 1
+        },
+        {
+          "item": "玉米",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "1玉米0.5鱼度",
+        "seconds": "10",
+        "health": "20",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "蔬菜大杂烩",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "胡萝卜",
+          "quantity": 1
+        },
+        {
+          "item": "浆果",
+          "quantity": 3
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "0.5蔬菜度",
+        "restriction": "×肉度树枝",
+        "seconds": "20",
+        "health": "2",
+        "hunger": "25",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "加州寿司卷",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "海带叶",
+          "quantity": 2
+        },
+        {
+          "item": "小鱼块",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "20",
+        "hunger": "37.5",
+        "sanity": "10"
+      }
+    },
+    {
+      "name": "酸橘汁腌鱼",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "生鱼肉",
+          "quantity": 2
+        },
+        {
+          "item": "冰",
+          "quantity": 1
+        },
+        {
+          "item": "小鱼块",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "20",
+        "hunger": "25",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "炖肉汤",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "怪物肉",
+          "quantity": 1
+        },
+        {
+          "item": "肉",
+          "quantity": 2
+        },
+        {
+          "item": "浆果",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "3肉度",
+        "restriction": "×树枝",
+        "seconds": "15",
+        "health": "12",
+        "hunger": "150",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "香蕉奶昔",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "洞穴香蕉",
+          "quantity": 4
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "8",
+        "hunger": "25",
+        "sanity": "33"
+      }
+    },
+    {
+      "name": "怪物千层面",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "怪物肉",
+          "quantity": 2
+        },
+        {
+          "item": "浆果",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "-20",
+        "hunger": "37.5",
+        "sanity": "-20"
+      }
+    },
+    {
+      "name": "藤壶握寿司",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "藤壶",
+          "quantity": 1
+        },
+        {
+          "item": "海带叶",
+          "quantity": 1
+        },
+        {
+          "item": "鸟蛋",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "40",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "无花果烤串",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "无花果",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 1
+        },
+        {
+          "item": "肉",
+          "quantity": 1
+        },
+        {
+          "item": "浆果",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "20",
+        "health": "20",
+        "hunger": "25",
+        "sanity": "15"
+      }
+    },
+    {
+      "name": "芝士蛋糕",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "蜂蜜",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        },
+        {
+          "item": "玉米",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "40",
+        "health": "-3",
+        "hunger": "0",
+        "sanity": "0"
+      }
+    },
+    {
+      "name": "苏格兰高脚鸟蛋",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "高脚鸟蛋",
+          "quantity": 1
+        },
+        {
+          "item": "胡萝卜",
+          "quantity": 3
+        }
+      ],
+      "source": "food",
+      "food": {
+        "health": "60",
+        "hunger": "150",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "冰淇淋",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "带电的羊奶",
+          "quantity": 1
+        },
+        {
+          "item": "冰",
+          "quantity": 1
+        },
+        {
+          "item": "蜂蜜",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "hunger": "25",
+        "sanity": "50"
+      }
+    },
+    {
+      "name": "素食堡",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": null,
+      "source": "food",
+      "food": {
+        "seconds": "40",
+        "health": "30",
+        "hunger": "37.5",
+        "sanity": "33"
+      },
+      "reference": "食人花肉*1、洋葱*1、蔬菜度*2",
+      "mentions": [
+        "食人花肉",
+        "洋葱"
+      ],
+      "note": "Wiki 示例含食材度数，不能当成背包里的具体食材。"
+    },
+    {
+      "name": "花式回旋块茎",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "土豆",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 1
+        },
+        {
+          "item": "浆果",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "15",
+        "health": "3",
+        "hunger": "37.5",
+        "sanity": "15"
+      }
+    },
+    {
+      "name": "炸鱼排",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "鱼",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 1
+        },
+        {
+          "item": "浆果",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "1树枝0.5鱼度",
+        "seconds": "40",
+        "health": "40",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "水果圣代",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "石榴",
+          "quantity": 3
+        },
+        {
+          "item": "树枝",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "3水果度",
+        "seconds": "10",
+        "health": "20",
+        "hunger": "25",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "海鲜浓汤",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "冰鲷鱼",
+          "quantity": 1
+        },
+        {
+          "item": "生鱼肉",
+          "quantity": 1
+        },
+        {
+          "item": "小鱼块",
+          "quantity": 1
+        },
+        {
+          "item": "骨头碎片",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "20",
+        "health": "40",
+        "hunger": "37.5",
+        "sanity": "20"
+      }
+    },
+    {
+      "name": "无花果酿象鼻",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": null,
+      "source": "food",
+      "food": {
+        "seconds": "40",
+        "health": "60",
+        "hunger": "56.2",
+        "sanity": "0"
+      },
+      "reference": "无花果*1+考拉象鼻+树枝*2",
+      "mentions": [
+        "无花果",
+        "考拉象鼻",
+        "树枝"
+      ],
+      "note": "Wiki 未列全具体食材或用量。"
+    },
+    {
+      "name": "肉串",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "树枝",
+          "quantity": 1
+        },
+        {
+          "item": "小肉",
+          "quantity": 1
+        },
+        {
+          "item": "浆果",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "0.5肉度",
+        "restriction": "×2树枝怪物度",
+        "seconds": "40",
+        "health": "3",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "牛奶帽",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "猪皮",
+          "quantity": 1
+        },
+        {
+          "item": "海带叶",
+          "quantity": 1
+        },
+        {
+          "item": "带电的羊奶",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "hunger": "188",
+        "sanity": "-5"
+      }
+    },
+    {
+      "name": "鳗鱼料理",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "鳗鱼",
+          "quantity": 1
+        },
+        {
+          "item": "苔藓",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "20",
+        "hunger": "18.8",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "酿鱼头",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "藤壶",
+          "quantity": 1
+        },
+        {
+          "item": "小鱼块",
+          "quantity": 2
+        },
+        {
+          "item": "树枝",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "1藤壶1.25鱼度",
+        "seconds": "40",
+        "health": "20",
+        "hunger": "75"
+      }
+    },
+    {
+      "name": "清爽蔬菜汁",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": null,
+      "source": "food",
+      "food": {
+        "health": "0",
+        "hunger": "15",
+        "sanity": "20"
+      },
+      "reference": "仙人掌肉*1+饮用水*1+冰*1+胡萝卜*2",
+      "mentions": [
+        "仙人掌肉",
+        "饮用水",
+        "冰",
+        "胡萝卜"
+      ],
+      "note": "Wiki 示例共 5 份材料，投料方式待核实。"
+    },
+    {
+      "name": "曼德拉草汤",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "曼德拉草",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 3
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "60",
+        "health": "100",
+        "hunger": "150",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "冰香蕉冻唇蜜",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "洞穴香蕉",
+          "quantity": 1
+        },
+        {
+          "item": "冰",
+          "quantity": 3
+        }
+      ],
+      "source": "food",
+      "food": {
+        "health": "30",
+        "hunger": "18.8",
+        "sanity": "15"
+      }
+    },
+    {
+      "name": "西瓜冰棍",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "西瓜",
+          "quantity": 1
+        },
+        {
+          "item": "冰",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "3",
+        "hunger": "12.5",
+        "sanity": "20"
+      }
+    },
+    {
+      "name": "果冻沙拉",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "食人花肉",
+          "quantity": 2
+        },
+        {
+          "item": "蜂蜜",
+          "quantity": 2
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "40",
+        "health": "0",
+        "hunger": "37.5",
+        "sanity": "50"
+      }
+    },
+    {
+      "name": "蔬菜鸡尾酒",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": null,
+      "source": "food",
+      "food": {
+        "restriction": "×肉度蛋度树枝",
+        "seconds": "10",
+        "health": "3",
+        "hunger": "25",
+        "sanity": "33"
+      },
+      "reference": "番茄/芦笋*1+冰*1+胡萝卜*1+红蘑菇*1",
+      "mentions": [
+        "番茄",
+        "芦笋",
+        "冰",
+        "胡萝卜",
+        "红蘑菇"
+      ],
+      "note": "Wiki 示例含番茄或芦笋等替代写法，保留原表作查询。"
+    },
+    {
+      "name": "火龙果派",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "火龙果",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 3
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "1火龙果",
+        "restriction": "×肉度",
+        "seconds": "40",
+        "health": "40",
+        "hunger": "75",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "花沙拉",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "仙人掌花",
+          "quantity": 1
+        },
+        {
+          "item": "采摘的红蘑菇",
+          "quantity": 3
+        }
+      ],
+      "source": "food",
+      "food": {
+        "restriction": "×肉度蛋度水果度树枝",
+        "seconds": "10",
+        "health": "40",
+        "hunger": "12.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "海鲜牛排",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "怪物肉",
+          "quantity": 1
+        },
+        {
+          "item": "小鱼块",
+          "quantity": 3
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "10",
+        "health": "60",
+        "hunger": "37.5",
+        "sanity": "33"
+      }
+    },
+    {
+      "name": "无花果意面",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "无花果",
+          "quantity": 1
+        },
+        {
+          "item": "胡萝卜",
+          "quantity": 2
+        },
+        {
+          "item": "树枝",
+          "quantity": 1
+        }
+      ],
+      "source": "food",
+      "food": {
+        "seconds": "40",
+        "health": "30",
+        "hunger": "53.2",
+        "sanity": "15"
+      }
+    },
+    {
+      "name": "肉丸",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        {
+          "item": "小肉",
+          "quantity": 1
+        },
+        {
+          "item": "浆果",
+          "quantity": 3
+        }
+      ],
+      "source": "food",
+      "food": {
+        "criteria": "0.5肉度",
+        "restriction": "×2.5肉度树枝",
+        "seconds": "15",
+        "health": "3",
+        "hunger": "62.5",
+        "sanity": "5"
+      }
+    }
+  ],
+  "gaps": {
+    "木板": {
+      "source": "items"
+    },
+    "铥矿石": {
+      "source": "items"
+    },
+    "绿色月眼": {
+      "source": "items"
+    },
+    "石砖": {
+      "source": "items"
+    },
+    "蓝色月眼": {
+      "source": "items"
+    },
+    "地图": {
+      "source": "items"
+    },
+    "莎草纸": {
+      "source": "items"
+    },
+    "有洞的月亮石": {
+      "source": "items"
+    },
+    "紫色月眼": {
+      "source": "items"
+    },
+    "可靠的胶布": {
+      "source": "items"
+    },
+    "噩梦燃料": {
+      "source": "items"
+    },
+    "红色月眼": {
+      "source": "items"
+    },
+    "熊皮": {
+      "source": "items"
+    },
+    "电子元件": {
+      "source": "items"
+    },
+    "橘色月眼": {
+      "source": "items"
+    },
+    "绳子": {
+      "source": "items"
+    },
+    "紫宝石": {
+      "source": "items"
+    },
+    "黄色月眼": {
+      "source": "items"
+    }
+  },
+  "materialFacts": {
+    "榴莲种子": {
+      "source": "food",
+      "origin": "喂被囚禁的鸟榴莲换取"
+    },
+    "带电的羊奶": {
+      "source": "food",
+      "origin": "击杀带电的闪电羊概率掉落"
+    },
+    "烤藤壶": {
+      "source": "food",
+      "origin": "火烤藤壶获得"
+    },
+    "烤桦木果": {
+      "source": "food",
+      "origin": "火烤桦木果"
+    },
+    "南瓜种子": {
+      "source": "food",
+      "origin": "喂被囚禁的鸟南瓜换取"
+    },
+    "孵化中的高脚鸟蛋": {
+      "source": "food",
+      "origin": "黄昏或晚上将高脚鸟蛋放火旁边获得"
+    },
+    "蝴蝶翅膀": {
+      "source": "food",
+      "origin": "击杀蝴蝶"
+    },
+    "脓鼻涕": {
+      "source": "food",
+      "origin": "击杀钢羊获得"
+    },
+    "胡萝卜种子": {
+      "source": "food",
+      "origin": "喂被囚禁的鸟胡萝卜换取"
+    },
+    "黄油": {
+      "source": "food",
+      "origin": "击杀蝴蝶概率掉落或击杀蝶鸟掉落"
+    },
+    "西瓜种子": {
+      "source": "food",
+      "origin": "喂被囚禁的鸟西瓜换取"
+    },
+    "火龙果种子": {
+      "source": "food",
+      "origin": "喂被囚禁的鸟火龙果换取"
+    },
+    "蜂蜜": {
+      "source": "food",
+      "origin": "击杀蜜蜂或拆毁蜂巢获得"
+    },
+    "玉米种子": {
+      "source": "food",
+      "origin": "喂被囚禁的鸟玉米换取"
+    },
+    "烤种子": {
+      "source": "food",
+      "origin": "火烤种子"
+    },
+    "蜂王浆": {
+      "source": "food",
+      "origin": "击杀蜂后掉落"
+    },
+    "藤壶": {
+      "source": "food",
+      "origin": "击杀海草概率掉落"
+    },
+    "榴莲": {
+      "source": "food",
+      "origin": "农场种植"
+    },
+    "巨型榴莲": {
+      "source": "food",
+      "origin": "农场种植，不可直接烹饪或食用"
+    },
+    "烤香蕉": {
+      "source": "food",
+      "origin": "火烤香蕉"
+    },
+    "烤西瓜": {
+      "source": "food",
+      "origin": "火烤西瓜"
+    },
+    "超臭榴莲": {
+      "source": "food",
+      "origin": "火烤榴莲"
+    },
+    "巨型石榴": {
+      "source": "food",
+      "origin": "农场种植，不可直接烹饪或食用"
+    },
+    "无花果": {
+      "source": "food",
+      "origin": "采摘苔藓藤条获得"
+    },
+    "洞穴香蕉": {
+      "source": "food",
+      "origin": "洞穴香蕉树采集或击杀暴躁猴概率掉落"
+    },
+    "火龙果": {
+      "source": "food",
+      "origin": "农场种植"
+    },
+    "烤无花果": {
+      "source": "food",
+      "origin": "火烤无花果获得"
+    },
+    "多汁浆果": {
+      "source": "food",
+      "origin": "多汁浆果丛采集"
+    },
+    "烤火龙果": {
+      "source": "food",
+      "origin": "火烤火龙果"
+    },
+    "浆果": {
+      "source": "food",
+      "origin": "浆果丛采集"
+    },
+    "巨型西瓜": {
+      "source": "food",
+      "origin": "农场种植，不可直接烹饪或食用"
+    },
+    "较少发光蓝莓": {
+      "source": "food",
+      "origin": "洞穴中采集神秘植物"
+    },
+    "烤浆果": {
+      "source": "food",
+      "origin": "火烤浆果"
+    },
+    "切片熟石榴": {
+      "source": "food",
+      "origin": "火烤石榴"
+    },
+    "巨型火龙果": {
+      "source": "food",
+      "origin": "农场种植，不可直接烹饪或食用"
+    },
+    "烤多汁浆果": {
+      "source": "food",
+      "origin": "火烤多汁浆果"
+    },
+    "西瓜": {
+      "source": "food",
+      "origin": "农场种植"
+    },
+    "鳗鱼": {
+      "source": "food",
+      "origin": "钓竿"
+    },
+    "鸟腿": {
+      "source": "food",
+      "origin": "秃毛鸟、驼鹿鹅、驼鹿鹅幼崽、企鸥"
+    },
+    "肉": {
+      "source": "food",
+      "origin": "牛、独眼巨鹿、考拉象鼻、猪人、高脚鸟"
+    },
+    "洞穴飞鼠翅膀": {
+      "source": "food",
+      "origin": "洞穴飞鼠"
+    },
+    "蛙腿": {
+      "source": "food",
+      "origin": "角蛙、鱼人"
+    },
+    "考拉象鼻": {
+      "source": "food",
+      "origin": "考拉象"
+    },
+    "小肉": {
+      "source": "food",
+      "origin": "兔子、鼹鼠、企鸥、秃毛鸟"
+    },
+    "鱼": {
+      "source": "food",
+      "origin": "鱼人、钓竿"
+    },
+    "怪物肉": {
+      "source": "food",
+      "origin": "猎犬、蜘蛛、蜘蛛女王、触手"
+    },
+    "考拉象鼻(蓝)": {
+      "source": "food",
+      "origin": "考拉象(冬)"
+    },
+    "烤番茄": {
+      "source": "food",
+      "origin": "火烤番茄获得"
+    },
+    "鸟蛋": {
+      "source": "food",
+      "origin": "喂被囚禁的鸟任何肉类或从企鹅巢拾取"
+    },
+    "煎蛋": {
+      "source": "food",
+      "origin": "火烤鸟蛋"
+    },
+    "煎高脚鸟蛋": {
+      "source": "food",
+      "origin": "火烤高脚鸟蛋"
+    },
+    "高脚鸟蛋": {
+      "source": "food",
+      "origin": "高脚鸟巢穴采集获得"
+    },
+    "未激活的天体贡品": {
+      "source": "items",
+      "origin": "击败镶嵌了珍珠的帝王蟹掉落，需要通过夹夹绞盘将其从海底捞出"
+    },
+    "天体圣殿卫戌": {
+      "source": "items",
+      "origin": "通过使用星象探测仪，在大陆森林中挖掘获得"
+    },
+    "天体圣殿象征": {
+      "source": "items",
+      "origin": "通过使用星象探测仪，在大陆森林中挖掘获得"
+    },
+    "元素精华": {
+      "source": "items",
+      "origin": "通过在困难及以上难度的沙盒中击败首领获得",
+      "use": "家园建筑升级材料"
+    },
+    "大牙币": {
+      "source": "items",
+      "origin": "找鼹鼠回收商或通过冒险团任务获得",
+      "use": "用于在商店购买装备等物品(转转飞盘进入世界)"
+    },
+    "胡须": {
+      "source": "items",
+      "origin": "低理智情况下击杀兔子、兔人、暴躁猴获得"
+    },
+    "珍珠的珍珠": {
+      "source": "items",
+      "origin": "提升与寄居蟹隐士好感度并修复隐士之家后获得",
+      "use": "可镶嵌在帝王蟹上，击败后可获得未激活的天体贡品"
+    },
+    "蜗牛黏液": {
+      "source": "items",
+      "origin": "击败尖壳蜗牛概率获得",
+      "use": "点然后会爆炸，可给矿工帽充能"
+    },
+    "紫色月眼": {
+      "source": "items",
+      "origin": "合成获得",
+      "use": "放在地面后可以在地图上标记位置或建造月亮守卫"
+    },
+    "木头": {
+      "source": "items",
+      "origin": "使用斧头砍伐树木获得",
+      "use": "可用作燃料"
+    },
+    "多汁浆果丛": {
+      "source": "items",
+      "origin": "使用铲子挖掘多汁浆果丛获得"
+    },
+    "玩具木马": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "红宝石": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得或击杀火烈犬等"
+    },
+    "可靠的胶布": {
+      "source": "items",
+      "origin": "合成获得",
+      "use": "修复衣服、补修船只、制作薇诺娜专属道具"
+    },
+    "噩梦燃料": {
+      "source": "items",
+      "origin": "击败梦魇掉落或用恶魔花瓣合成"
+    },
+    "邪天翁羽毛": {
+      "source": "items",
+      "origin": "邪天翁收到伤害后掉落",
+      "use": "编制羽毛帆布、制作邪天翁羽浮标"
+    },
+    "红色磷粉": {
+      "source": "items",
+      "origin": "通过击败蝶鸟掉落获得"
+    },
+    "乌鸦羽毛": {
+      "source": "items",
+      "origin": "击败乌鸦概率获得"
+    },
+    "红色月眼": {
+      "source": "items",
+      "origin": "合成获得",
+      "use": "放在地面后可以在地图上标记位置"
+    },
+    "地精奶奶": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得，或在坟墓外的盒装零件中获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "格罗姆黏液": {
+      "source": "items",
+      "origin": "击败格罗姆后掉落",
+      "use": "可作燃料使用，直接食用可恢复生命值"
+    },
+    "二手假牙": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "硝石": {
+      "source": "items",
+      "origin": "使用镐开采岩石获得或拾取"
+    },
+    "起皱的包裹": {
+      "source": "items",
+      "origin": "湖泊中钓鱼随机获得",
+      "use": "打开后可获得玩具，玩具可以跟猪王换金块或给蚁狮上供"
+    },
+    "彩虹宝石": {
+      "source": "items",
+      "origin": "通过分解唤月者魔杖获得",
+      "use": "激活远古档案馆"
+    },
+    "星光树": {
+      "source": "items",
+      "origin": "洞穴内探索，铲子挖掘获取"
+    },
+    "暗影心房": {
+      "source": "items",
+      "origin": "通过击败暗影骑士/主教/战车后掉落获得"
+    },
+    "猪皮": {
+      "source": "items",
+      "origin": "击败猪人、猪人守卫或摧毁猪屋、猪头获得"
+    },
+    "浮木桩": {
+      "source": "items",
+      "origin": "在海洋中拾取",
+      "use": "可用于制作船桨、修理船只或当作燃料"
+    },
+    "熊皮": {
+      "source": "items",
+      "origin": "击败熊獾后掉落或合成获得"
+    },
+    "迷你火箭": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "蕨叶": {
+      "source": "items",
+      "origin": "采集蕨类食物获得"
+    },
+    "绿色孢子": {
+      "source": "items",
+      "origin": "由绿蘑菇树或绿蘑菇帽产生",
+      "use": "放入蘑菇灯，发出绿色的光，或种植在蘑菇农场长出绿蘑菇"
+    },
+    "幸运猫扎尔": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "蓝宝石": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得或击杀冰烈犬等",
+      "use": "将切斯特变成冰雪切斯特"
+    },
+    "鸥元": {
+      "source": "items",
+      "origin": "足够声望后向企鸥王进贡肉类获取",
+      "use": "可用于杂货店购买货物(转转飞盘进入世界)"
+    },
+    "牛毛": {
+      "source": "items",
+      "origin": "击杀牛掉落，或在牛睡着后使用剃刀获得"
+    },
+    "开裂珍珠": {
+      "source": "items",
+      "origin": "击败镶嵌的珍珠的帝王蟹后获得"
+    },
+    "蜗壳碎片": {
+      "source": "items",
+      "origin": "击败尖壳蜗牛后概率获得"
+    },
+    "腐烂食物": {
+      "source": "items",
+      "origin": "食物变质后获得"
+    },
+    "木炭": {
+      "source": "items",
+      "origin": "可通过烧毁树木获得"
+    },
+    "多枝树种": {
+      "source": "items",
+      "origin": "砍伐多枝的树/患病的多枝的树获得"
+    },
+    "失衡陀螺": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "低音贝壳钟": {
+      "source": "items",
+      "origin": "月亮碎片岛(隐士岛)上获得"
+    },
+    "电子元件": {
+      "source": "items",
+      "origin": "合成获得"
+    },
+    "邪天翁喙": {
+      "source": "items",
+      "origin": "击败邪天翁后掉落",
+      "use": "当作船桨、武器，或制作鸟嘴壶"
+    },
+    "拉莫克斯的宝箱": {
+      "source": "items",
+      "origin": "通过击败拉莫克斯掉落获得"
+    },
+    "红鸟羽毛": {
+      "source": "items",
+      "origin": "击败红鸟概率获得"
+    },
+    "橘色月眼": {
+      "source": "items",
+      "origin": "合成获得",
+      "use": "放在地面后可以在地图上标记位置或建造强征传送塔"
+    },
+    "麋鹿茸": {
+      "source": "items",
+      "origin": "击败克劳斯后获得",
+      "use": "可用于打开赃物袋"
+    },
+    "机器人玩偶": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "石头": {
+      "source": "items",
+      "origin": "使用镐开采岩石获得或拾取"
+    },
+    "鹿角": {
+      "source": "items",
+      "origin": "击败无眼鹿或引导无眼鹿碰上树后掉落",
+      "use": "可用于打开赃物袋，召唤克劳斯"
+    },
+    "绳子": {
+      "source": "items",
+      "origin": "合成获得"
+    },
+    "发光体": {
+      "source": "items",
+      "origin": "触碰星光树后掉落"
+    },
+    "蘑菇皮": {
+      "source": "items",
+      "origin": "通过击败毒菌蟾蜍/悲惨的毒菌蟾蜍后掉落，对蟾蜍造成一定伤害后也可掉落"
+    },
+    "兔绒": {
+      "source": "items",
+      "origin": "击败兔人或摧毁兔屋获得"
+    },
+    "天体祭坛底座": {
+      "source": "items",
+      "origin": "通过开采[吸引人的结构]获得"
+    },
+    "独眼巨鹿眼球": {
+      "source": "items",
+      "origin": "击败独眼巨鹿后获得",
+      "use": "可用于制作眼球炮塔"
+    },
+    "烂电线": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得，或敲掉损坏的发条装置获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "荧光果": {
+      "source": "items",
+      "origin": "在洞穴中采集荧光花获得，击败啜食者、触手概率掉落",
+      "use": "可给矿工帽充能"
+    },
+    "毛丛": {
+      "source": "items",
+      "origin": "熊獾附近掉落",
+      "use": "可制作熊皮"
+    },
+    "臭气制造器": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "紫宝石": {
+      "source": "items",
+      "origin": "击败发条主教概率掉落，也可通过合成获得"
+    },
+    "鹤氏璧": {
+      "source": "items",
+      "origin": "通过告示板委托和回收商店交易等赚取",
+      "use": "可用于鹤人小店中购买货物(转转飞盘进入世界)"
+    },
+    "牛角": {
+      "source": "items",
+      "origin": "击杀牛后掉落",
+      "use": "吹响牛角可让附近的牛群跟随你"
+    },
+    "一角鲸的角": {
+      "source": "items",
+      "origin": "击败一角鲸概率掉落",
+      "use": "在海上吹奏角可以召唤海浪"
+    },
+    "蚊子血囊": {
+      "source": "items",
+      "origin": "击败蚊子后概率获得",
+      "use": "可制作水球用于灭火"
+    },
+    "友好果蝇果": {
+      "source": "items",
+      "origin": "击败果蝇王获得",
+      "use": "可吸引友好果蝇，友好果蝇被击败后会立刻变瘪，无法恢复"
+    },
+    "采下的芦苇": {
+      "source": "items",
+      "origin": "沼泽地区采集芦苇获得"
+    },
+    "钢丝棉": {
+      "source": "items",
+      "origin": "击败钢羊获得"
+    },
+    "不求人": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "中音贝壳钟": {
+      "source": "items",
+      "origin": "月亮碎片岛(隐士岛)上获得"
+    },
+    "犬牙": {
+      "source": "items",
+      "origin": "使用锤子摧毁猎犬丘、敲碎犬骨、击杀猎犬或座狼掉落"
+    },
+    "盐晶": {
+      "source": "items",
+      "origin": "海上开采岩堆获得，锤开沉底宝箱概率获得",
+      "use": "可腌制食物，回复食物新鲜度"
+    },
+    "鸟粪": {
+      "source": "items",
+      "origin": "通过击败洞穴飞鼠掉落或用种子喂鸟获得"
+    },
+    "雪鸟羽毛": {
+      "source": "items",
+      "origin": "击败雪鸟概率获得"
+    },
+    "黄色月眼": {
+      "source": "items",
+      "origin": "合成获得",
+      "use": "放在地面后可以在地图上标记位置"
+    },
+    "金块": {
+      "source": "items",
+      "origin": "使用镐开采金矿获得或矿区拾取"
+    },
+    "齿轮": {
+      "source": "items",
+      "origin": "击败发条怪物后获得"
+    },
+    "干瘪的触手": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "大理石": {
+      "source": "items",
+      "origin": "使用镐开采大理石树或大理石雕像获得"
+    },
+    "营地传送器": {
+      "source": "items",
+      "origin": "暗影深渊中探索获得",
+      "use": "临时开启往返营地的传送门"
+    },
+    "木板": {
+      "source": "items",
+      "origin": "合成获得"
+    },
+    "远古钥匙": {
+      "source": "items",
+      "origin": "击败远古守护者后掉落"
+    },
+    "沙漠之石": {
+      "source": "items",
+      "origin": "通过击败沙漠的蚁狮后掉落获得"
+    },
+    "浣猫尾巴": {
+      "source": "items",
+      "origin": "击败浣猫概率获得获得"
+    },
+    "天体祭坛雕像": {
+      "source": "items",
+      "origin": "通过开采[吸引人的结构]获得"
+    },
+    "闪电羊角": {
+      "source": "items",
+      "origin": "击败闪电羊后概率获得"
+    },
+    "杯子和球玩具": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "发光蓝莓": {
+      "source": "items",
+      "origin": "在洞穴中采集或击败洞穴蠕虫掉落",
+      "use": "食用后可发光照明"
+    },
+    "食人花种子": {
+      "source": "items",
+      "origin": "击败食人花后获得",
+      "use": "可种植出新的食人花"
+    },
+    "土豆杯": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得、夏天在湖泊处钓鱼概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "绿宝石": {
+      "source": "items",
+      "origin": "使用镐开采远古雕像、锤子摧毁损坏的发条装置或某些遗迹、打开华丽的箱子、敲碎远古祭坛、击败龙蝇等"
+    },
+    "石晶粉": {
+      "source": "items",
+      "origin": "海上企鹅岛使用稿子挖奇异石获得"
+    },
+    "肥料": {
+      "source": "items",
+      "origin": "牛群附近采集或喂猪人水果、蔬菜、花瓣等食物获得"
+    },
+    "堆肥": {
+      "source": "items",
+      "origin": "由堆肥桶生产"
+    },
+    "啜食者皮": {
+      "source": "items",
+      "origin": "击败啜食者概率获得"
+    },
+    "熔化的弹珠": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得，或敲掉损坏的发条装置获得、夏天在湖泊处钓鱼概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "花瓣": {
+      "source": "items",
+      "origin": "草地、森林地区采集花获得"
+    },
+    "红色孢子": {
+      "source": "items",
+      "origin": "由红蘑菇树或红蘑菇帽产生",
+      "use": "放入蘑菇灯，发出红色的光，或种植在蘑菇农场长出红蘑菇"
+    },
+    "破搅拌器": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "暗影硬币": {
+      "source": "items",
+      "origin": "暗影深渊中探索获得",
+      "use": "可与深渊商人换取道具"
+    },
+    "高音贝壳钟": {
+      "source": "items",
+      "origin": "月亮碎片岛(隐士岛)上获得"
+    },
+    "蜘蛛丝": {
+      "source": "items",
+      "origin": "破坏蜘蛛巢掉落或击败蜘蛛概率掉落"
+    },
+    "月娥翅膀": {
+      "source": "items",
+      "origin": "月蛾死亡后掉落",
+      "use": "可食用或合成物品"
+    },
+    "金丝鸟羽毛": {
+      "source": "items",
+      "origin": "击败金丝鸟获得"
+    },
+    "绿色月眼": {
+      "source": "items",
+      "origin": "合成获得",
+      "use": "放在地面后可以在地图上标记位置"
+    },
+    "草": {
+      "source": "items",
+      "origin": "采集草或靠近草地壁虎获得"
+    },
+    "骨头碎片": {
+      "source": "items",
+      "origin": "摧毁猎犬丘或敲碎犬骨、骨头后获得"
+    },
+    "漏水的茶杯": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "铥矿石": {
+      "source": "items",
+      "origin": "只可以在遗迹中获得，可以在远古祭坛附近使用铥碎片合成"
+    },
+    "石砖": {
+      "source": "items",
+      "origin": "合成获得"
+    },
+    "蒸馏的知识": {
+      "source": "items",
+      "origin": "激活饮水机即可获得",
+      "use": "通过机械琴转译后学会科技"
+    },
+    "黑色磷粉": {
+      "source": "items",
+      "origin": "通过击败蝶鸟掉落获得"
+    },
+    "海象牙": {
+      "source": "items",
+      "origin": "击败海象人概率获得"
+    },
+    "天体祭坛宝球": {
+      "source": "items",
+      "origin": "通过开采[吸引人的结构]获得"
+    },
+    "格罗姆翅膀": {
+      "source": "items",
+      "origin": "击败格罗姆后掉落"
+    },
+    "硬化橡胶塞": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得、夏天在绿洲处钓鱼概率获得、风滚草有概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "冰": {
+      "source": "items",
+      "origin": "使用镐开采冰矿获得",
+      "use": "在夏季食用后可降温"
+    },
+    "星空": {
+      "source": "items",
+      "origin": "洞穴中探索",
+      "use": "哈奇可充当临时背包，放入荧光果后会发光，放入长矛后怪物打哈奇会反伤"
+    },
+    "钢丝衣架": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "橙宝石": {
+      "source": "items",
+      "origin": "使用镐开采远古雕像、锤子摧毁损坏的发条装置、敲碎特定远古遗物和远古祭坛、打开华丽箱子、击败龙蝇等"
+    },
+    "竹笋": {
+      "source": "items",
+      "origin": "竹林区域使用铲子挖出"
+    },
+    "月岩": {
+      "source": "items",
+      "origin": "使用镐开采陨石获得，也可在地图上拾取"
+    },
+    "蜂巢": {
+      "source": "items",
+      "origin": "摧毁蜂巢或蜇人蜂巢、击败蜂后获得"
+    },
+    "海芽插穗": {
+      "source": "items",
+      "origin": "击败海草后获得"
+    },
+    "守护者之角": {
+      "source": "items",
+      "origin": "击败远古守护者后掉落",
+      "use": "可用于制作眼球炮塔"
+    },
+    "假卡祖笛": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "恶魔花瓣": {
+      "source": "items",
+      "origin": "采集恶魔之花获得",
+      "use": "制作噩梦燃料"
+    },
+    "中毒的金丝鸟": {
+      "source": "items",
+      "origin": "将装有金丝鸟的鸟笼放入洞穴中获得"
+    },
+    "磨损的纱线": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "卡镑": {
+      "source": "items",
+      "origin": "通过完成小镇告示板上的委托或和希尤德进行交易来赚取",
+      "use": "可用于招募浣猫佣兵或在杂货店购买货物(转转飞盘进入世界)"
+    },
+    "蜘蛛腺": {
+      "source": "items",
+      "origin": "击败蜘蛛后概率掉落"
+    },
+    "空瓶子": {
+      "source": "items",
+      "origin": "使用瓶中信后获得"
+    },
+    "触手皮": {
+      "source": "items",
+      "origin": "击败触手概率获得"
+    },
+    "蓝色月眼": {
+      "source": "items",
+      "origin": "合成获得",
+      "use": "放在地面后可以在地图上标记位置或建造月晷"
+    },
+    "树枝": {
+      "source": "items",
+      "origin": "采集小树苗根、尖刺灌木或砍伐多枝树、针叶树、洞穴香蕉树获得",
+      "use": "部分料理可用作填料"
+    },
+    "化石碎片": {
+      "source": "items",
+      "origin": "摧毁蛛网岩获得、挖石笋概率获得"
+    },
+    "弯曲的叉子": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "铥矿碎片": {
+      "source": "items",
+      "origin": "只可在遗迹中获得，可合成铥矿石",
+      "use": "用于修复由铥矿石合成的建筑物"
+    },
+    "莎草纸": {
+      "source": "items",
+      "origin": "合成获得"
+    },
+    "饼干切割机壳": {
+      "source": "items",
+      "origin": "击败饼干切割机后概率掉落",
+      "use": "可制作饼干切割机帽子、海钓饵料"
+    },
+    "白色磷粉": {
+      "source": "items",
+      "origin": "通过击败蝶鸟掉落获得"
+    },
+    "腐烂鸟蛋": {
+      "source": "items",
+      "origin": "将蛋放置到腐坏后获得",
+      "use": "可用于制作火药"
+    },
+    "有洞的月亮石": {
+      "source": "items",
+      "origin": "合成获得",
+      "use": "可放入宝石制作月眼"
+    },
+    "灰烬": {
+      "source": "items",
+      "origin": "烧毁的植物或击败火猎犬概率获得"
+    },
+    "格罗姆花": {
+      "source": "items",
+      "origin": "满月的夜晚在格罗姆雕像上采集",
+      "use": "吸引格罗姆跟随，格罗姆被击败后花会腐烂"
+    },
+    "不搭的纽扣": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得、夏天在湖泊处钓鱼概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "燧石": {
+      "source": "items",
+      "origin": "使用镐开采岩石获得或拾取"
+    },
+    "眼骨": {
+      "source": "items",
+      "origin": "大地图中探索",
+      "use": "拿起后可召唤切斯特，切斯特可充当临时背包"
+    },
+    "地图": {
+      "source": "items",
+      "origin": "必须在制图桌附近合成获得"
+    },
+    "黄宝石": {
+      "source": "items",
+      "origin": "使用镐开采远古雕像、锤子摧毁损坏的发条装置、打开华丽箱子、击败龙蝇等"
+    },
+    "竹材": {
+      "source": "items",
+      "origin": "砍伐竹子获得"
+    },
+    "鳞片": {
+      "source": "items",
+      "origin": "击败龙蝇后掉落，龙蝇10秒内受到伤害大于2500也可掉落"
+    },
+    "蜂刺": {
+      "source": "items",
+      "origin": "击败蜜蜂或蜇人蜂获得"
+    },
+    "月亮碎片": {
+      "source": "items",
+      "origin": "开采月亮玻璃后获得"
+    },
+    "驼鹿鹅羽毛": {
+      "source": "items",
+      "origin": "击败驼鹿鹅后掉落"
+    },
+    "戈尔迪之结": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得，夏天在湖泊处钓鱼概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "活木": {
+      "source": "items",
+      "origin": "击败树精守卫掉落或砍伐完全正常的树获得"
+    },
+    "蓝色孢子": {
+      "source": "items",
+      "origin": "由蓝蘑菇树或蓝蘑菇帽产生",
+      "use": "放入蘑菇灯，发出蓝色的光，或种植在蘑菇农场长出蓝蘑菇"
+    },
+    "鞋拔子": {
+      "source": "items",
+      "origin": "使用铲子挖掘坟墓概率获得",
+      "use": "和猪王换金块或给蚁狮进贡"
+    },
+    "瓶中信": {
+      "source": "items",
+      "origin": "海上随机刷新",
+      "use": "会标注隐士岛或沉底宝箱位置"
+    },
+    "沉底宝箱": {
+      "source": "items",
+      "origin": "阅读瓶中信后概率获得位置，需要用夹夹绞盘才能捞取"
+    }
+  }
+}

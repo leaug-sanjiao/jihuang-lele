@@ -1,0 +1,887 @@
+{
+  "checkedAt": "2026-11-25",
+  "sources": {
+    "official-storage": {
+      "title": "腾讯科技手册 · 保鲜与灵子分解器",
+      "url": "https://static.gametalk.qq.com/image/358/1788330843_8266e4bfeda1bd42d8f9794eb4ea0a13.png",
+      "evidence": "official"
+    },
+    "official-magic-one": {
+      "title": "腾讯科技手册 · 一级魔法",
+      "url": "https://static.gametalk.qq.com/image/358/1788330850_f19c9085129709ee14d013be869df69b.png",
+      "evidence": "official"
+    },
+    "official-shadow": {
+      "title": "腾讯科技手册 · 暗影操控器",
+      "url": "https://static.gametalk.qq.com/image/358/1788330855_9eb9cd58b9ea5e04c890326b5c1f471f.png",
+      "evidence": "official"
+    },
+    "official-teleport": {
+      "title": "腾讯科技手册 · 传送",
+      "url": "https://static.gametalk.qq.com/image/358/1788330859_602e8f042f463dc47ebfdf6a94ed5a6d.png",
+      "evidence": "official"
+    },
+    "official-tool-guide": {
+      "title": "饥困荒野官方 · 工具手册",
+      "url": "https://www.taptap.cn/moment/867812280803266153",
+      "evidence": "official"
+    },
+    "official-food-guide": {
+      "title": "饥困荒野官方 · 三维手册",
+      "url": "https://www.taptap.cn/moment/865262413363022888?group_id=268439",
+      "evidence": "official"
+    },
+    "guide-science": {
+      "title": "家园速生指南 · 图 02",
+      "url": "https://wiki.biligame.com/jikunhuangye/文件:家园速生指南02.jpeg",
+      "revision": 1718,
+      "updated": "2024-03-18"
+    },
+    "guide-hat": {
+      "title": "家园速生指南 · 图 29",
+      "url": "https://wiki.biligame.com/jikunhuangye/文件:家园速生指南29.jpeg",
+      "revision": 1718,
+      "updated": "2024-03-18"
+    },
+    "guide-magic": {
+      "title": "家园速生指南 · 图 29、32",
+      "url": "https://wiki.biligame.com/jikunhuangye/【饥困荒野】家园速生指南",
+      "revision": 1718,
+      "updated": "2024-03-18"
+    },
+    "roast-fruit": {
+      "title": "烤桦木果",
+      "url": "https://wiki.biligame.com/jikunhuangye/烤桦木果",
+      "updated": "2024-03-21"
+    },
+    "roast-mushroom": {
+      "title": "烤绿蘑菇",
+      "url": "https://wiki.biligame.com/jikunhuangye/烤绿蘑菇",
+      "updated": "2024-02-23"
+    },
+    "official-tools": {
+      "title": "腾讯《饥荒科技手册》· 基础工具",
+      "url": "https://static.gametalk.qq.com/image/358/1788330819_4a47a0db6e60853dedfcfdf08a5ca249.png",
+      "evidence": "official"
+    },
+    "official-gold-tools": {
+      "title": "腾讯《饥荒科技手册》· 炼金引擎",
+      "url": "https://static.gametalk.qq.com/image/358/1788330838_09dd8c2662b96ce14928333f055c5580.png",
+      "evidence": "official"
+    },
+    "official-farming": {
+      "title": "官方生存必修课 · 种植指南",
+      "url": "https://www.taptap.cn/moment/874293946451234011?group_id=268439",
+      "updated": "2026-11-24",
+      "evidence": "official"
+    },
+    "handbook-tools": {
+      "title": "4399《饥困荒野》生存手册",
+      "url": "https://a.4399.cn/starve/tools/collection",
+      "evidence": "guide"
+    },
+    "official-science-craft": {
+      "title": "腾讯《饥荒科技手册》· 科学机器",
+      "url": "https://static.gametalk.qq.com/image/358/1788330827_fb5c81ed3a220004b71069645f112867.png",
+      "evidence": "official"
+    },
+    "official-survival-craft": {
+      "title": "腾讯《饥荒科技手册》· 开荒装备",
+      "url": "https://static.gametalk.qq.com/image/358/1788330832_10fb15c77258a991b0028080a64fb42d.png",
+      "evidence": "official"
+    },
+    "guide-rope": {
+      "title": "3DM 手游《饥困荒野》· 木甲与绳子",
+      "url": "https://shouyou.3dmgame.com/gl/634585.html",
+      "updated": "2026-09-01",
+      "evidence": "guide"
+    },
+    "guide-lantern": {
+      "title": "九游《饥困荒野》· 提灯制作攻略",
+      "url": "https://www.9game.cn/news/12035613.html",
+      "evidence": "guide"
+    },
+    "game-torch": {
+      "title": "玩家实机截图 · 火炬制作栏",
+      "updated": "2026-11-24",
+      "evidence": "game"
+    }
+  },
+  "searchTerms": {
+    "斧头": ["斧子"],
+    "黄金斧头": ["金斧", "黄金斧子"],
+    "鹤嘴锄": ["镐", "镐子", "铁镐", "铁镐子"],
+    "黄金鹤嘴锄": ["金镐", "黄金镐", "铁镐", "铁镐子"],
+    "多用斧镐": ["铁镐", "铁镐子"],
+    "钓竿": ["鱼竿", "钓鱼竿"],
+    "空浇水壶": ["浇水壶"],
+    "火炬": ["火把"]
+  },
+  "recipes": [
+    {
+      "name": "科学机器",
+      "kind": "craft",
+      "category": "科学",
+      "ingredients": [
+        { "item": "木头", "quantity": 4 },
+        { "item": "石头", "quantity": 4 },
+        { "item": "金块", "quantity": 1 }
+      ],
+      "technology": [],
+      "unlocks": "一本科技",
+      "source": "official-tools"
+    },
+    {
+      "name": "高礼帽",
+      "kind": "craft",
+      "category": "装备",
+      "ingredients": null,
+      "mentions": ["蜘蛛网", "蜘蛛丝"],
+      "technology": ["科学机器"],
+      "reference": "腾讯科技手册列蜘蛛网 ×6，旧版家园指南列蜘蛛丝 ×12。正式服用量待核对。",
+      "source": "official-storage"
+    },
+    {
+      "name": "灵子分解器",
+      "kind": "craft",
+      "category": "魔法",
+      "ingredients": [
+        { "item": "兔子", "quantity": 4 },
+        { "item": "木板", "quantity": 4 },
+        { "item": "高礼帽", "quantity": 1 }
+      ],
+      "technology": ["科学机器"],
+      "unlocks": "一本魔法科技",
+      "note": "需要活着的兔子，可用陷阱捕捉。",
+      "source": "official-storage"
+    },
+    {
+      "name": "烤桦木果",
+      "kind": "cook",
+      "category": "火烤",
+      "ingredients": null,
+      "reference": "火烤桦木果",
+      "mentions": ["桦木果"],
+      "note": "Wiki 记录了做法，单次用量和产量待核实。",
+      "source": "roast-fruit"
+    },
+    {
+      "name": "烤绿蘑菇",
+      "kind": "cook",
+      "category": "火烤",
+      "ingredients": null,
+      "reference": "火烤绿蘑菇",
+      "mentions": ["绿蘑菇"],
+      "note": "Wiki 记录了做法，单次用量和产量待核实。",
+      "source": "roast-mushroom"
+    },
+    {
+      "name": "鹤嘴锄",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 2 },
+        { "item": "燧石", "quantity": 2 }
+      ],
+      "technology": [],
+      "source": "official-tools"
+    },
+    {
+      "name": "铲子",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 2 },
+        { "item": "燧石", "quantity": 2 }
+      ],
+      "technology": ["科学机器"],
+      "source": "official-farming"
+    },
+    {
+      "name": "黄金斧头",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 4 },
+        { "item": "金块", "quantity": 2 }
+      ],
+      "technology": ["炼金引擎"],
+      "note": "炼金引擎条件见腾讯《饥荒科技手册》。",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=992"
+    },
+    {
+      "name": "黄金鹤嘴锄",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 4 },
+        { "item": "金块", "quantity": 2 }
+      ],
+      "technology": ["炼金引擎"],
+      "note": "炼金引擎条件见腾讯《饥荒科技手册》。",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=994"
+    },
+    {
+      "name": "黄金铲子",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 4 },
+        { "item": "金块", "quantity": 2 }
+      ],
+      "technology": ["炼金引擎"],
+      "note": "炼金引擎条件见腾讯《饥荒科技手册》。",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=996"
+    },
+    {
+      "name": "园艺锄",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 2 },
+        { "item": "燧石", "quantity": 2 }
+      ],
+      "source": "official-farming"
+    },
+    {
+      "name": "耕地机",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": null,
+      "reference": "开服种植指南列木板 ×3、绳子 ×2、燧石 ×2，与腾讯科技手册的用量有出入。",
+      "source": "official-farming"
+    },
+    {
+      "name": "便便桶",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": null,
+      "reference": "开服种植指南列肥料 ×3、骨头碎片 ×2、木头 ×4，与 4399 图鉴的用量有出入。",
+      "source": "official-farming"
+    },
+    {
+      "name": "多用斧镐",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "黄金斧头", "quantity": 1 },
+        { "item": "黄金鹤嘴锄", "quantity": 1 },
+        { "item": "燧石", "quantity": 2 }
+      ],
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=997"
+    },
+    {
+      "name": "锤子",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 3 },
+        { "item": "石头", "quantity": 3 },
+        { "item": "草", "quantity": 6 }
+      ],
+      "source": "official-tool-guide",
+      "sourceUrl": "https://img2-tc.tapimg.com/moment/etag/FopQpPeFtHlQ5YggLWr80_HaEPY8_20261106154923.png/_tap_ugc.jpg"
+    },
+    {
+      "name": "剃刀",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 2 },
+        { "item": "燧石", "quantity": 2 }
+      ],
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=999"
+    },
+    {
+      "name": "捕虫网",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 4 },
+        { "item": "蜘蛛丝", "quantity": 2 },
+        { "item": "绳子", "quantity": 1 }
+      ],
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1000"
+    },
+    {
+      "name": "钓竿",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 2 },
+        { "item": "燧石", "quantity": 2 }
+      ],
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1001"
+    },
+    {
+      "name": "陷阱",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 2 },
+        { "item": "草", "quantity": 6 }
+      ],
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1002"
+    },
+    {
+      "name": "捕鸟陷阱",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 3 },
+        { "item": "蜘蛛丝", "quantity": 4 }
+      ],
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1003"
+    },
+    {
+      "name": "刷子",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "钢丝棉", "quantity": 1 },
+        { "item": "海象牙", "quantity": 1 },
+        { "item": "金块", "quantity": 2 }
+      ],
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1016"
+    },
+    {
+      "name": "月光玻璃斧",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 2 },
+        { "item": "月亮碎片", "quantity": 3 }
+      ],
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1021"
+    },
+    {
+      "name": "桨",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "木头", "quantity": 1 }
+      ],
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1022"
+    },
+    {
+      "name": "浮木桨",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "浮木桩", "quantity": 1 }
+      ],
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1023"
+    },
+    {
+      "name": "空浇水壶",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 2 },
+        { "item": "绳子", "quantity": 1 }
+      ],
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1027"
+    },
+    {
+      "name": "空鸟嘴壶",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "浮木桩", "quantity": 2 },
+        { "item": "绳子", "quantity": 1 },
+        { "item": "邪天翁喙", "quantity": 1 }
+      ],
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1019"
+    },
+    {
+      "name": "火炬",
+      "kind": "craft",
+      "category": "照明",
+      "ingredients": [
+        { "item": "草", "quantity": 2 },
+        { "item": "树枝", "quantity": 2 }
+      ],
+      "source": "game-torch"
+    },
+    {
+      "name": "提灯",
+      "kind": "craft",
+      "category": "照明",
+      "ingredients": [
+        { "item": "树枝", "quantity": 3 },
+        { "item": "绳子", "quantity": 2 },
+        { "item": "荧光果", "quantity": 2 }
+      ],
+      "technology": ["炼金引擎"],
+      "source": "guide-lantern"
+    },
+    {
+      "name": "斧头",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 1 },
+        { "item": "燧石", "quantity": 1 }
+      ],
+      "technology": [],
+      "source": "official-tools"
+    },
+    {
+      "name": "木甲",
+      "kind": "craft",
+      "category": "护甲",
+      "ingredients": [
+        { "item": "木头", "quantity": 8 },
+        { "item": "绳子", "quantity": 2 }
+      ],
+      "technology": ["科学机器"],
+      "source": "official-survival-craft"
+    },
+    {
+      "name": "长矛",
+      "kind": "craft",
+      "category": "武器",
+      "ingredients": [
+        { "item": "树枝", "quantity": 2 },
+        { "item": "绳子", "quantity": 1 },
+        { "item": "燧石", "quantity": 1 }
+      ],
+      "technology": ["科学机器"],
+      "source": "official-survival-craft"
+    },
+    {
+      "name": "木板",
+      "kind": "craft",
+      "category": "精炼",
+      "ingredients": [
+        { "item": "木头", "quantity": 4 }
+      ],
+      "technology": ["科学机器"],
+      "output": 1,
+      "source": "official-gold-tools"
+    },
+    {
+      "name": "绳子",
+      "kind": "craft",
+      "category": "精炼",
+      "ingredients": [
+        { "item": "草", "quantity": 3 }
+      ],
+      "technology": ["科学机器"],
+      "output": 1,
+      "source": "guide-rope"
+    },
+    {
+      "name": "石砖",
+      "kind": "craft",
+      "category": "精炼",
+      "ingredients": [
+        { "item": "石头", "quantity": 3 }
+      ],
+      "technology": ["科学机器"],
+      "output": 1,
+      "source": "official-gold-tools"
+    },
+    {
+      "name": "电子元件",
+      "kind": "craft",
+      "category": "科学",
+      "ingredients": [
+        { "item": "金块", "quantity": 2 },
+        { "item": "石砖", "quantity": 1 }
+      ],
+      "technology": ["科学机器"],
+      "output": 1,
+      "source": "official-gold-tools"
+    },
+    {
+      "name": "烹饪锅",
+      "kind": "craft",
+      "category": "烹饪",
+      "ingredients": [
+        { "item": "石砖", "quantity": 3 },
+        { "item": "木炭", "quantity": 6 },
+        { "item": "树枝", "quantity": 6 }
+      ],
+      "technology": ["科学机器"],
+      "source": "official-science-craft"
+    },
+    {
+      "name": "炼金引擎",
+      "kind": "craft",
+      "category": "科学",
+      "ingredients": [
+        { "item": "木板", "quantity": 4 },
+        { "item": "石砖", "quantity": 2 },
+        { "item": "电子元件", "quantity": 2 }
+      ],
+      "technology": ["科学机器"],
+      "unlocks": "二本科技",
+      "source": "official-gold-tools"
+    },
+    {
+      "name": "干草叉",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": [
+        { "item": "树枝", "quantity": 2 },
+        { "item": "燧石", "quantity": 2 }
+      ],
+      "source": "official-tool-guide",
+      "sourceUrl": "https://img2-tc.tapimg.com/moment/etag/FopQpPeFtHlQ5YggLWr80_HaEPY8_20261106154923.png/_tap_ugc.jpg",
+      "note": "用于铲起地皮或还原耕地。"
+    },
+    {
+      "name": "牛角帽",
+      "kind": "craft",
+      "category": "装备",
+      "ingredients": [
+        { "item": "牛毛", "quantity": 8 },
+        { "item": "牛角", "quantity": 1 }
+      ],
+      "source": "official-survival-craft",
+      "note": "可保暖，并避免发情的牛攻击佩戴者。"
+    },
+    {
+      "name": "晾肉架",
+      "kind": "craft",
+      "category": "食物保存",
+      "ingredients": [
+        { "item": "树枝", "quantity": 3 },
+        { "item": "木炭", "quantity": 2 },
+        { "item": "绳子", "quantity": 3 }
+      ],
+      "technology": [
+        "科学机器"
+      ],
+      "source": "official-survival-craft"
+    },
+    {
+      "name": "冰箱",
+      "kind": "craft",
+      "category": "食物保存",
+      "ingredients": [
+        { "item": "金块", "quantity": 2 },
+        { "item": "齿轮", "quantity": 1 },
+        { "item": "石砖", "quantity": 1 }
+      ],
+      "technology": [
+        "炼金引擎"
+      ],
+      "source": "official-storage"
+    },
+    {
+      "name": "盐盒",
+      "kind": "craft",
+      "category": "食物保存",
+      "ingredients": [
+        { "item": "盐晶", "quantity": 10 },
+        { "item": "蓝宝石", "quantity": 1 },
+        { "item": "石砖", "quantity": 1 }
+      ],
+      "technology": [
+        "炼金引擎"
+      ],
+      "source": "official-storage",
+      "note": "保鲜效果优于冰箱，能放入的食物种类较少。"
+    },
+    {
+      "name": "冰杖",
+      "kind": "craft",
+      "category": "魔法",
+      "ingredients": [
+        { "item": "长矛", "quantity": 1 },
+        { "item": "蓝宝石", "quantity": 1 }
+      ],
+      "technology": [
+        "灵子分解器"
+      ],
+      "source": "official-magic-one"
+    },
+    {
+      "name": "排箫",
+      "kind": "craft",
+      "category": "魔法",
+      "ingredients": [
+        { "item": "采下的芦苇", "quantity": 5 },
+        { "item": "曼德拉草", "quantity": 1 },
+        { "item": "绳子", "quantity": 1 }
+      ],
+      "technology": [
+        "灵子分解器"
+      ],
+      "source": "official-magic-one"
+    },
+    {
+      "name": "独奏乐器",
+      "kind": "craft",
+      "category": "魔法",
+      "ingredients": [
+        { "item": "金块", "quantity": 2 },
+        { "item": "噩梦燃料", "quantity": 4 },
+        { "item": "猪皮", "quantity": 2 }
+      ],
+      "technology": [
+        "灵子分解器"
+      ],
+      "source": "official-magic-one"
+    },
+    {
+      "name": "替身人偶",
+      "kind": "craft",
+      "category": "魔法",
+      "ingredients": null,
+      "technology": [
+        "灵子分解器"
+      ],
+      "source": "official-magic-one",
+      "mentions": [
+        "木板",
+        "胡须"
+      ],
+      "reference": "木板 ×4、胡须 ×4，建造时还要消耗生命值 40。仅供查询。"
+    },
+    {
+      "name": "紫宝石",
+      "kind": "craft",
+      "category": "精炼",
+      "ingredients": [
+        { "item": "红宝石", "quantity": 1 },
+        { "item": "蓝宝石", "quantity": 1 }
+      ],
+      "technology": [
+        "灵子分解器"
+      ],
+      "source": "official-shadow",
+      "note": "也可从发条主教处获得。"
+    },
+    {
+      "name": "噩梦燃料",
+      "kind": "craft",
+      "category": "精炼",
+      "ingredients": [
+        { "item": "深色花瓣", "quantity": 4 }
+      ],
+      "source": "official-shadow",
+      "note": "也可从影怪处获得。"
+    },
+    {
+      "name": "暗影操控器",
+      "kind": "craft",
+      "category": "魔法",
+      "ingredients": [
+        { "item": "活木", "quantity": 3 },
+        { "item": "紫宝石", "quantity": 1 },
+        { "item": "噩梦燃料", "quantity": 7 }
+      ],
+      "source": "official-shadow",
+      "unlocks": "二级魔法"
+    },
+    {
+      "name": "传送魔杖",
+      "kind": "craft",
+      "category": "魔法",
+      "ingredients": [
+        { "item": "噩梦燃料", "quantity": 4 },
+        { "item": "活木", "quantity": 2 },
+        { "item": "紫宝石", "quantity": 2 }
+      ],
+      "technology": [
+        "暗影操控器"
+      ],
+      "source": "official-teleport"
+    },
+    {
+      "name": "传送焦点",
+      "kind": "craft",
+      "category": "魔法",
+      "ingredients": [
+        { "item": "噩梦燃料", "quantity": 4 },
+        { "item": "活木", "quantity": 4 },
+        { "item": "金块", "quantity": 8 }
+      ],
+      "technology": [
+        "暗影操控器"
+      ],
+      "source": "official-teleport",
+      "note": "建成后放入 3 颗紫宝石，可用传送魔杖抵达这里。"
+    },
+    {
+      "name": "暗夜剑",
+      "kind": "craft",
+      "category": "武器",
+      "ingredients": null,
+      "technology": [
+        "暗影操控器"
+      ],
+      "source": "official-shadow",
+      "reference": "官方手册列出了科技条件，未列材料用量。"
+    },
+    {
+      "name": "暗夜甲",
+      "kind": "craft",
+      "category": "护甲",
+      "ingredients": null,
+      "technology": [
+        "暗影操控器"
+      ],
+      "source": "official-shadow",
+      "reference": "官方手册列出了科技条件，未列材料用量。"
+    },
+    {
+      "name": "黄金园艺锄",
+      "kind": "craft",
+      "category": "工具",
+      "ingredients": null,
+      "technology": [
+        "炼金引擎"
+      ],
+      "source": "official-tool-guide",
+      "reference": "官方工具手册列出了黄金升级版，未列所需材料。",
+      "sourceUrl": "https://img2-tc.tapimg.com/moment/etag/FlBmmPSuZ805ekPuYwP8UM7ZO3OD_20261106154922.png/_tap_ugc.jpg"
+    },
+    {
+      "name": "肉丸",
+      "variant": "怪物肉和浆果",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        { "item": "怪物肉", "quantity": 1 },
+        { "item": "浆果", "quantity": 2 },
+        { "item": "胡萝卜", "quantity": 1 }
+      ],
+      "source": "official-food-guide",
+      "sourceUrl": "https://img2-tc.tapimg.com/moment/etag/Fo8w3GBXPSInNFfVmjJ_hBXuYs9V_20261030152159.png/_tap_ugc.jpg",
+      "food": {
+        "health": "3",
+        "hunger": "62.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "肉丸",
+      "variant": "小肉和冰",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        { "item": "小肉", "quantity": 1 },
+        { "item": "浆果", "quantity": 1 },
+        { "item": "冰", "quantity": 1 },
+        { "item": "胡萝卜", "quantity": 1 }
+      ],
+      "source": "official-food-guide",
+      "sourceUrl": "https://img2-tc.tapimg.com/moment/etag/Fo8w3GBXPSInNFfVmjJ_hBXuYs9V_20261030152159.png/_tap_ugc.jpg",
+      "food": {
+        "health": "3",
+        "hunger": "62.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "波兰水饺",
+      "variant": "浆果和胡萝卜",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        { "item": "怪物肉", "quantity": 1 },
+        { "item": "浆果", "quantity": 1 },
+        { "item": "胡萝卜", "quantity": 1 },
+        { "item": "蛋", "quantity": 1 }
+      ],
+      "source": "official-food-guide",
+      "sourceUrl": "https://img2-tc.tapimg.com/moment/etag/Fp9GoKJrlxMP3DphO7F2M7JZpnBm_20261030152159.png/_tap_ugc.jpg",
+      "food": {
+        "health": "40",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "波兰水饺",
+      "variant": "红蘑菇",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        { "item": "怪物肉", "quantity": 1 },
+        { "item": "蛋", "quantity": 1 },
+        { "item": "红蘑菇", "quantity": 2 }
+      ],
+      "source": "official-food-guide",
+      "sourceUrl": "https://img2-tc.tapimg.com/moment/etag/Fp9GoKJrlxMP3DphO7F2M7JZpnBm_20261030152159.png/_tap_ugc.jpg",
+      "food": {
+        "health": "40",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "波兰水饺",
+      "variant": "双蛋",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        { "item": "怪物肉", "quantity": 1 },
+        { "item": "胡萝卜", "quantity": 1 },
+        { "item": "蛋", "quantity": 2 }
+      ],
+      "source": "official-food-guide",
+      "sourceUrl": "https://img2-tc.tapimg.com/moment/etag/Fp9GoKJrlxMP3DphO7F2M7JZpnBm_20261030152159.png/_tap_ugc.jpg",
+      "food": {
+        "health": "40",
+        "hunger": "37.5",
+        "sanity": "5"
+      }
+    },
+    {
+      "name": "太妃糖",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        { "item": "蜂蜜", "quantity": 3 },
+        { "item": "树枝", "quantity": 1 }
+      ],
+      "source": "official-food-guide",
+      "sourceUrl": "https://img2-tc.tapimg.com/moment/etag/FqrHUU53N5VxwkPWh_OSWTRPrBW8_20261030152159.png/_tap_ugc.jpg",
+      "food": {
+        "health": "-3",
+        "hunger": "25",
+        "sanity": "15",
+        "restriction": "×肉度",
+        "seconds": "40"
+      },
+      "note": "烹饪时间与限制沿用 BWIKI 历史图鉴。"
+    },
+    {
+      "name": "太妃糖",
+      "variant": "胡萝卜",
+      "kind": "cook",
+      "category": "料理",
+      "ingredients": [
+        { "item": "蜂蜜", "quantity": 3 },
+        { "item": "胡萝卜", "quantity": 1 }
+      ],
+      "source": "official-food-guide",
+      "sourceUrl": "https://img2-tc.tapimg.com/moment/etag/FqrHUU53N5VxwkPWh_OSWTRPrBW8_20261030152159.png/_tap_ugc.jpg",
+      "food": {
+        "health": "-3",
+        "hunger": "25",
+        "sanity": "15"
+      }
+    }
+  ]
+}

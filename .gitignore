@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+!.env.example
+.wiki-candidate.json
+.handbook-candidate.json
+*.tmp
+__pycache__/

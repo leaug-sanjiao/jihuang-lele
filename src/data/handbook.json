@@ -1,0 +1,3674 @@
+{
+  "checkedAt": "2026-11-25",
+  "recipes": [
+    {
+      "name": "晨星锤",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=906",
+      "ingredients": [
+        {
+          "item": "闪电羊角",
+          "quantity": 1
+        },
+        {
+          "item": "电子元件",
+          "quantity": 2
+        },
+        {
+          "item": "硝石",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "皮鞭",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=907",
+      "ingredients": [
+        {
+          "item": "浣猫尾巴",
+          "quantity": 3
+        },
+        {
+          "item": "触手皮",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "铥矿岩棒",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=910",
+      "ingredients": [
+        {
+          "item": "活木",
+          "quantity": 3
+        },
+        {
+          "item": "铥矿石",
+          "quantity": 4
+        },
+        {
+          "item": "噩梦燃料",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "冰魔杖",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=911",
+      "ingredients": [
+        {
+          "item": "长矛",
+          "quantity": 1
+        },
+        {
+          "item": "蓝宝石",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "火魔杖",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=912",
+      "ingredients": [
+        {
+          "item": "噩梦燃料",
+          "quantity": 2
+        },
+        {
+          "item": "长矛",
+          "quantity": 1
+        },
+        {
+          "item": "红宝石",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "瞬移魔杖",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=914",
+      "ingredients": [
+        {
+          "item": "噩梦燃料",
+          "quantity": 2
+        },
+        {
+          "item": "步行手杖",
+          "quantity": 1
+        },
+        {
+          "item": "橙宝石",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "唤星者法杖",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=915",
+      "ingredients": [
+        {
+          "item": "噩梦燃料",
+          "quantity": 4
+        },
+        {
+          "item": "活木",
+          "quantity": 2
+        },
+        {
+          "item": "黄宝石",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "拆解魔杖",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=916",
+      "ingredients": [
+        {
+          "item": "噩梦燃料",
+          "quantity": 4
+        },
+        {
+          "item": "活木",
+          "quantity": 2
+        },
+        {
+          "item": "绿宝石",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "回旋镖",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=919",
+      "ingredients": [
+        {
+          "item": "蜘蛛丝",
+          "quantity": 1
+        },
+        {
+          "item": "木炭",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "吹箭",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=920",
+      "ingredients": [
+        {
+          "item": "采下的芦苇",
+          "quantity": 2
+        },
+        {
+          "item": "犬牙",
+          "quantity": 1
+        },
+        {
+          "item": "雪鸟羽毛",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "火焰吹箭",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=921",
+      "ingredients": [
+        {
+          "item": "采下的芦苇",
+          "quantity": 2
+        },
+        {
+          "item": "木炭",
+          "quantity": 1
+        },
+        {
+          "item": "雪鸟羽毛",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "催眠吹箭",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=922",
+      "ingredients": [
+        {
+          "item": "采下的芦苇",
+          "quantity": 2
+        },
+        {
+          "item": "蜂刺",
+          "quantity": 1
+        },
+        {
+          "item": "雪鸟羽毛",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "雷电吹箭",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=923",
+      "ingredients": [
+        {
+          "item": "采下的芦苇",
+          "quantity": 2
+        },
+        {
+          "item": "木炭",
+          "quantity": 1
+        },
+        {
+          "item": "雪鸟羽毛",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "天气风向标",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=924",
+      "ingredients": [
+        {
+          "item": "驼鹿鹅羽毛",
+          "quantity": 10
+        },
+        {
+          "item": "闪电羊角",
+          "quantity": 1
+        },
+        {
+          "item": "齿轮",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "火药",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=926",
+      "ingredients": [
+        {
+          "item": "腐烂鸟蛋",
+          "quantity": 1
+        },
+        {
+          "item": "木炭",
+          "quantity": 1
+        },
+        {
+          "item": "硝石",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "刺耳三叉戟",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=927",
+      "ingredients": [
+        {
+          "item": "一角鲸的角",
+          "quantity": 3
+        },
+        {
+          "item": "海带叶",
+          "quantity": 4
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "玻璃刀",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=930",
+      "ingredients": [
+        {
+          "item": "树枝",
+          "quantity": 1
+        },
+        {
+          "item": "月亮碎片",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "name": "寒冰吹箭",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=931",
+      "ingredients": [
+        {
+          "item": "采下的芦苇",
+          "quantity": 2
+        },
+        {
+          "item": "冰",
+          "quantity": 2
+        },
+        {
+          "item": "雪鸟羽毛",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "淬毒吹箭",
+      "kind": "craft",
+      "category": "武器",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=932",
+      "ingredients": [
+        {
+          "item": "采下的芦苇",
+          "quantity": 2
+        },
+        {
+          "item": "采摘的红蘑菇",
+          "quantity": 2
+        },
+        {
+          "item": "竹材",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "针线包",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=934",
+      "ingredients": [
+        {
+          "item": "木头",
+          "quantity": 1
+        },
+        {
+          "item": "蜘蛛丝",
+          "quantity": 8
+        },
+        {
+          "item": "犬牙",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "战斗头盔",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=935",
+      "ingredients": [
+        {
+          "item": "金块",
+          "quantity": 2
+        },
+        {
+          "item": "石头",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "远古王冠",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=938",
+      "ingredients": [
+        {
+          "item": "铥矿石",
+          "quantity": 4
+        },
+        {
+          "item": "噩梦燃料",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "矿工帽",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=939",
+      "ingredients": [
+        {
+          "item": "草帽",
+          "quantity": 1
+        },
+        {
+          "item": "金块",
+          "quantity": 1
+        },
+        {
+          "item": "萤火虫",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "鼹鼠帽",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=940",
+      "ingredients": [
+        {
+          "item": "鼹鼠",
+          "quantity": 2
+        },
+        {
+          "item": "电子元件",
+          "quantity": 2
+        },
+        {
+          "item": "发光蓝莓",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "防雨帽",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=943",
+      "ingredients": [
+        {
+          "item": "鼹鼠",
+          "quantity": 2
+        },
+        {
+          "item": "草帽",
+          "quantity": 1
+        },
+        {
+          "item": "骨头碎片",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "眼球伞",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=944",
+      "ingredients": [
+        {
+          "item": "独眼巨鹿眼球",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 15
+        },
+        {
+          "item": "骨头碎片",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "养蜂帽",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=945",
+      "ingredients": [
+        {
+          "item": "蜘蛛丝",
+          "quantity": 8
+        },
+        {
+          "item": "绳子",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "羽毛帽",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=946",
+      "ingredients": [
+        {
+          "item": "乌鸦羽毛",
+          "quantity": 3
+        },
+        {
+          "item": "红鸟羽毛",
+          "quantity": 2
+        },
+        {
+          "item": "触手皮",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "冰帽",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=949",
+      "ingredients": [
+        {
+          "item": "电子元件",
+          "quantity": 2
+        },
+        {
+          "item": "绳子",
+          "quantity": 4
+        },
+        {
+          "item": "冰",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "西瓜帽",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=950",
+      "ingredients": [
+        {
+          "item": "西瓜",
+          "quantity": 1
+        },
+        {
+          "item": "树枝",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "name": "浣猫帽子",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=951",
+      "ingredients": [
+        {
+          "item": "浣猫尾巴",
+          "quantity": 1
+        },
+        {
+          "item": "蜘蛛丝",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "绿色蘑菇帽",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=952",
+      "ingredients": [
+        {
+          "item": "采摘的绿蘑菇",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "name": "蓝色蘑菇帽",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=953",
+      "ingredients": [
+        {
+          "item": "采摘的蓝蘑菇",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "name": "红色蘑菇帽",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=954",
+      "ingredients": [
+        {
+          "item": "采摘的红蘑菇",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "name": "草甲",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=955",
+      "ingredients": [
+        {
+          "item": "草",
+          "quantity": 10
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "大理石甲",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=956",
+      "ingredients": [
+        {
+          "item": "大理石",
+          "quantity": 6
+        },
+        {
+          "item": "绳子",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "鳞甲",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=957",
+      "ingredients": [
+        {
+          "item": "鳞片",
+          "quantity": 1
+        },
+        {
+          "item": "木甲",
+          "quantity": 1
+        },
+        {
+          "item": "猪皮",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "name": "铥矿甲",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=959",
+      "ingredients": [
+        {
+          "item": "铥矿石",
+          "quantity": 6
+        },
+        {
+          "item": "噩梦燃料",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "犬牙背心",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=960",
+      "ingredients": [
+        {
+          "item": "犬牙",
+          "quantity": 8
+        },
+        {
+          "item": "蜘蛛丝",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "name": "花衬衫",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=961",
+      "ingredients": [
+        {
+          "item": "莎草纸",
+          "quantity": 3
+        },
+        {
+          "item": "蜘蛛丝",
+          "quantity": 3
+        },
+        {
+          "item": "仙人掌花",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "清凉夏装",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=962",
+      "ingredients": [
+        {
+          "item": "绳子",
+          "quantity": 1
+        },
+        {
+          "item": "红鸟羽毛",
+          "quantity": 3
+        },
+        {
+          "item": "猪皮",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "保暖小背心",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=963",
+      "ingredients": [
+        {
+          "item": "象鼻",
+          "quantity": 1
+        },
+        {
+          "item": "蜘蛛丝",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "name": "寒冬背心",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=964",
+      "ingredients": [
+        {
+          "item": "象鼻",
+          "quantity": 1
+        },
+        {
+          "item": "蜘蛛丝",
+          "quantity": 8
+        },
+        {
+          "item": "牛毛",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "熊皮背心",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=965",
+      "ingredients": [
+        {
+          "item": "熊皮",
+          "quantity": 1
+        },
+        {
+          "item": "犬牙背心",
+          "quantity": 1
+        },
+        {
+          "item": "绳子",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "雨衣",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=966",
+      "ingredients": [
+        {
+          "item": "触手皮",
+          "quantity": 2
+        },
+        {
+          "item": "绳子",
+          "quantity": 2
+        },
+        {
+          "item": "骨头碎片",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "饥饿腰带",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=967",
+      "ingredients": [
+        {
+          "item": "啜食者皮",
+          "quantity": 6
+        },
+        {
+          "item": "绳子",
+          "quantity": 2
+        },
+        {
+          "item": "噩梦燃料",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "重生护符",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=968",
+      "ingredients": [
+        {
+          "item": "金块",
+          "quantity": 3
+        },
+        {
+          "item": "噩梦燃料",
+          "quantity": 2
+        },
+        {
+          "item": "红宝石",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "寒冰护符",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=969",
+      "ingredients": [
+        {
+          "item": "金块",
+          "quantity": 3
+        },
+        {
+          "item": "蓝宝石",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "噩梦护符",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=970",
+      "ingredients": [
+        {
+          "item": "金块",
+          "quantity": 6
+        },
+        {
+          "item": "噩梦燃料",
+          "quantity": 4
+        },
+        {
+          "item": "紫宝石",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "魔光护符",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=971",
+      "ingredients": [
+        {
+          "item": "铥矿石",
+          "quantity": 2
+        },
+        {
+          "item": "噩梦燃料",
+          "quantity": 3
+        },
+        {
+          "item": "黄宝石",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "懒人护符",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=972",
+      "ingredients": [
+        {
+          "item": "铥矿石",
+          "quantity": 2
+        },
+        {
+          "item": "噩梦燃料",
+          "quantity": 3
+        },
+        {
+          "item": "橙宝石",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "建造护符",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=973",
+      "ingredients": [
+        {
+          "item": "铥矿石",
+          "quantity": 2
+        },
+        {
+          "item": "噩梦燃料",
+          "quantity": 3
+        },
+        {
+          "item": "绿宝石",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "铥矿奖章",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=974",
+      "ingredients": [
+        {
+          "item": "铥矿石",
+          "quantity": 2
+        },
+        {
+          "item": "噩梦燃料",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "兔耳罩",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=976",
+      "ingredients": [
+        {
+          "item": "兔子",
+          "quantity": 2
+        },
+        {
+          "item": "树枝",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "花环",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=977",
+      "ingredients": [
+        {
+          "item": "花瓣",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "name": "时髦的护目镜",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=978",
+      "ingredients": [
+        {
+          "item": "金块",
+          "quantity": 1
+        },
+        {
+          "item": "猪皮",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "草帽",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=979",
+      "ingredients": [
+        {
+          "item": "草",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "name": "冬帽",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=980",
+      "ingredients": [
+        {
+          "item": "牛毛",
+          "quantity": 4
+        },
+        {
+          "item": "蜘蛛丝",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "饼干切割机帽子",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=982",
+      "ingredients": [
+        {
+          "item": "饼干切割机外壳",
+          "quantity": 4
+        },
+        {
+          "item": "绳子",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "高级耕作先驱帽",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=983",
+      "ingredients": [
+        {
+          "item": "耕作先驱帽",
+          "quantity": 1
+        },
+        {
+          "item": "铥矿碎片",
+          "quantity": 4
+        },
+        {
+          "item": "紫宝石",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "耕作先驱帽",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=984",
+      "ingredients": [
+        {
+          "item": "便便桶",
+          "quantity": 1
+        },
+        {
+          "item": "种子",
+          "quantity": 3
+        },
+        {
+          "item": "电子元件",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "化石夹袄",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=988",
+      "ingredients": [
+        {
+          "item": "兔绒",
+          "quantity": 4
+        },
+        {
+          "item": "牛毛",
+          "quantity": 4
+        },
+        {
+          "item": "化石碎片",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "火龙果砂岩甲",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=989",
+      "ingredients": [
+        {
+          "item": "硝石",
+          "quantity": 4
+        },
+        {
+          "item": "火龙果",
+          "quantity": 1
+        },
+        {
+          "item": "石头",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "海花环",
+      "kind": "craft",
+      "category": "护甲",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=990",
+      "ingredients": [
+        {
+          "item": "海带叶",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "name": "南瓜灯",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1004",
+      "ingredients": [
+        {
+          "item": "南瓜",
+          "quantity": 1
+        },
+        {
+          "item": "萤火虫",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "花伞",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1006",
+      "ingredients": [
+        {
+          "item": "树枝",
+          "quantity": 4
+        },
+        {
+          "item": "草",
+          "quantity": 3
+        },
+        {
+          "item": "花瓣",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "name": "雨伞",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1007",
+      "ingredients": [
+        {
+          "item": "树枝",
+          "quantity": 6
+        },
+        {
+          "item": "猪皮",
+          "quantity": 1
+        },
+        {
+          "item": "蜘蛛丝",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "暖石",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1008",
+      "ingredients": [
+        {
+          "item": "石头",
+          "quantity": 10
+        },
+        {
+          "item": "鹤嘴锄",
+          "quantity": 1
+        },
+        {
+          "item": "燧石",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "name": "水球",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1009",
+      "ingredients": [
+        {
+          "item": "蚊子血囊",
+          "quantity": 2
+        },
+        {
+          "item": "冰",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "指南针",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1010",
+      "ingredients": [
+        {
+          "item": "金块",
+          "quantity": 1
+        },
+        {
+          "item": "燧石",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "草席卷",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1011",
+      "ingredients": [
+        {
+          "item": "草",
+          "quantity": 6
+        },
+        {
+          "item": "绳子",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "毛皮铺盖",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1012",
+      "ingredients": [
+        {
+          "item": "草席卷",
+          "quantity": 1
+        },
+        {
+          "item": "兔绒",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "羽毛扇",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1013",
+      "ingredients": [
+        {
+          "item": "驼鹿鹅羽毛",
+          "quantity": 5
+        },
+        {
+          "item": "采下的芦苇",
+          "quantity": 2
+        },
+        {
+          "item": "绳子",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "犬牙陷阱",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1014",
+      "ingredients": [
+        {
+          "item": "木头",
+          "quantity": 1
+        },
+        {
+          "item": "绳子",
+          "quantity": 1
+        },
+        {
+          "item": "犬牙",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "睡袋",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1017",
+      "ingredients": [
+        {
+          "item": "蘑菇皮",
+          "quantity": 1
+        },
+        {
+          "item": "中毒的金丝鸟",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "蜜蜂地雷",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1018",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 1
+        },
+        {
+          "item": "蜜蜂",
+          "quantity": 4
+        },
+        {
+          "item": "燧石",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "农产品秤",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1020",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 4
+        },
+        {
+          "item": "草",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "消防泵",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1024",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 2
+        },
+        {
+          "item": "口水鱼",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "犁地草膏",
+      "kind": "craft",
+      "category": "工具",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1028&detail_id=1025",
+      "ingredients": [
+        {
+          "item": "犁地草",
+          "quantity": 4
+        },
+        {
+          "item": "花瓣",
+          "quantity": 4
+        },
+        {
+          "item": "木炭",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "蜘蛛卵",
+      "kind": "craft",
+      "category": "科学",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1089",
+      "ingredients": [
+        {
+          "item": "蜘蛛丝",
+          "quantity": 12
+        },
+        {
+          "item": "蜘蛛腺体",
+          "quantity": 6
+        },
+        {
+          "item": "莎草纸",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "name": "石头营火",
+      "kind": "craft",
+      "category": "照明",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1289",
+      "ingredients": [
+        {
+          "item": "木头",
+          "quantity": 2
+        },
+        {
+          "item": "石头",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "name": "冰火",
+      "kind": "craft",
+      "category": "照明",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1290",
+      "ingredients": [
+        {
+          "item": "草",
+          "quantity": 3
+        },
+        {
+          "item": "硝石",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "石头冰火",
+      "kind": "craft",
+      "category": "照明",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1291",
+      "ingredients": [
+        {
+          "item": "石砖",
+          "quantity": 4
+        },
+        {
+          "item": "硝石",
+          "quantity": 2
+        },
+        {
+          "item": "电子元件",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "薇洛的打火机",
+      "kind": "craft",
+      "category": "照明",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1292",
+      "ingredients": [
+        {
+          "item": "绳子",
+          "quantity": 1
+        },
+        {
+          "item": "金块",
+          "quantity": 1
+        },
+        {
+          "item": "花瓣",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "name": "蜂蜜药膏",
+      "kind": "craft",
+      "category": "生存",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1294",
+      "ingredients": [
+        {
+          "item": "莎草纸",
+          "quantity": 1
+        },
+        {
+          "item": "蜂蜜",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "治疗药膏",
+      "kind": "craft",
+      "category": "生存",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1295",
+      "ingredients": [
+        {
+          "item": "石头",
+          "quantity": 1
+        },
+        {
+          "item": "蜘蛛腺体",
+          "quantity": 1
+        },
+        {
+          "item": "灰烬",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "遮阳棚",
+      "kind": "craft",
+      "category": "生存",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1296",
+      "ingredients": [
+        {
+          "item": "蜘蛛丝",
+          "quantity": 2
+        },
+        {
+          "item": "木板",
+          "quantity": 4
+        },
+        {
+          "item": "绳子",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "name": "帐篷",
+      "kind": "craft",
+      "category": "生存",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1297",
+      "ingredients": [
+        {
+          "item": "蜘蛛丝",
+          "quantity": 6
+        },
+        {
+          "item": "树枝",
+          "quantity": 4
+        },
+        {
+          "item": "绳子",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "name": "蜂箱",
+      "kind": "craft",
+      "category": "生存",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1300",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 2
+        },
+        {
+          "item": "蜂巢",
+          "quantity": 1
+        },
+        {
+          "item": "蜜蜂",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "强化农场",
+      "kind": "craft",
+      "category": "生存",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1302",
+      "ingredients": [
+        {
+          "item": "草",
+          "quantity": 10
+        },
+        {
+          "item": "肥料",
+          "quantity": 6
+        },
+        {
+          "item": "石头",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "蘑菇农场",
+      "kind": "craft",
+      "category": "生存",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1305",
+      "ingredients": [
+        {
+          "item": "腐烂食物",
+          "quantity": 8
+        },
+        {
+          "item": "肥料",
+          "quantity": 5
+        },
+        {
+          "item": "活木",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "基础农场",
+      "kind": "craft",
+      "category": "生存",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1306",
+      "ingredients": [
+        {
+          "item": "草",
+          "quantity": 8
+        },
+        {
+          "item": "肥料",
+          "quantity": 4
+        },
+        {
+          "item": "木头",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "堆肥桶",
+      "kind": "craft",
+      "category": "生存",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1307",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 3
+        },
+        {
+          "item": "腐烂食物",
+          "quantity": 1
+        },
+        {
+          "item": "草",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "催长剂起子",
+      "kind": "craft",
+      "category": "生存",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1308",
+      "ingredients": [
+        {
+          "item": "空瓶子",
+          "quantity": 1
+        },
+        {
+          "item": "海带叶",
+          "quantity": 1
+        },
+        {
+          "item": "灰烬",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "树果酱",
+      "kind": "craft",
+      "category": "生存",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1309",
+      "ingredients": [
+        {
+          "item": "无花果",
+          "quantity": 2
+        },
+        {
+          "item": "格罗姆黏液",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "雪球发射器",
+      "kind": "craft",
+      "category": "科学",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1311",
+      "ingredients": [
+        {
+          "item": "齿轮",
+          "quantity": 2
+        },
+        {
+          "item": "冰",
+          "quantity": 15
+        },
+        {
+          "item": "电子元件",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "避雷针",
+      "kind": "craft",
+      "category": "科学",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1312",
+      "ingredients": [
+        {
+          "item": "金块",
+          "quantity": 4
+        },
+        {
+          "item": "石砖",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "土地夯实器",
+      "kind": "craft",
+      "category": "科学",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1315",
+      "ingredients": [
+        {
+          "item": "铥矿石",
+          "quantity": 1
+        },
+        {
+          "item": "石砖",
+          "quantity": 3
+        },
+        {
+          "item": "失败料理",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "星象探测仪",
+      "kind": "craft",
+      "category": "科学",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1316",
+      "ingredients": [
+        {
+          "item": "铥矿石",
+          "quantity": 1
+        },
+        {
+          "item": "月岩",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "智囊团",
+      "kind": "craft",
+      "category": "科学",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1317",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "钓具容器",
+      "kind": "craft",
+      "category": "科学",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1318",
+      "ingredients": [
+        {
+          "item": "浮木桩",
+          "quantity": 1
+        },
+        {
+          "item": "骨头碎片",
+          "quantity": 1
+        },
+        {
+          "item": "电子元件",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "天体祭坛",
+      "kind": "craft",
+      "category": "科学",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1319",
+      "ingredients": [
+        {
+          "item": "天体祭坛底座",
+          "quantity": 1
+        },
+        {
+          "item": "天体祭坛宝球",
+          "quantity": 1
+        },
+        {
+          "item": "天体祭坛雕像",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "鸟笼",
+      "kind": "craft",
+      "category": "建筑",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1320",
+      "ingredients": [
+        {
+          "item": "莎草纸",
+          "quantity": 2
+        },
+        {
+          "item": "金块",
+          "quantity": 6
+        },
+        {
+          "item": "种子",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "木门",
+      "kind": "craft",
+      "category": "建筑",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1321",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 2
+        },
+        {
+          "item": "绳子",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "木栅栏",
+      "kind": "craft",
+      "category": "建筑",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1322",
+      "ingredients": [
+        {
+          "item": "树枝",
+          "quantity": 3
+        },
+        {
+          "item": "绳子",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "路牌",
+      "kind": "craft",
+      "category": "建筑",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1323",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "猪屋",
+      "kind": "craft",
+      "category": "建筑",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1324",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 4
+        },
+        {
+          "item": "石砖",
+          "quantity": 3
+        },
+        {
+          "item": "猪皮",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "木箱",
+      "kind": "craft",
+      "category": "建筑",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1326",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "name": "草墙",
+      "kind": "craft",
+      "category": "建筑",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1327",
+      "ingredients": [
+        {
+          "item": "草",
+          "quantity": 4
+        },
+        {
+          "item": "树枝",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "石墙",
+      "kind": "craft",
+      "category": "科学",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1328",
+      "ingredients": [
+        {
+          "item": "石砖",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "name": "飞翼船帆套装",
+      "kind": "craft",
+      "category": "建筑",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1337",
+      "ingredients": [
+        {
+          "item": "浮木桩",
+          "quantity": 3
+        },
+        {
+          "item": "绳子",
+          "quantity": 3
+        },
+        {
+          "item": "羽毛帆布",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "尘土块",
+      "kind": "craft",
+      "category": "合成",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1338",
+      "ingredients": [
+        {
+          "item": "盐晶",
+          "quantity": 1
+        },
+        {
+          "item": "石头",
+          "quantity": 2
+        },
+        {
+          "item": "硝石",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "羽毛帆布",
+      "kind": "craft",
+      "category": "合成",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1339",
+      "ingredients": [
+        {
+          "item": "蜘蛛丝",
+          "quantity": 1
+        },
+        {
+          "item": "邪天翁羽毛",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "name": "沐浴球",
+      "kind": "craft",
+      "category": "合成",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1340",
+      "ingredients": [
+        {
+          "item": "月树花",
+          "quantity": 6
+        },
+        {
+          "item": "硝石",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "甲板照明灯",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1343",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 1
+        },
+        {
+          "item": "绳子",
+          "quantity": 2
+        },
+        {
+          "item": "燧石",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "避雷导线",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1344",
+      "ingredients": [
+        {
+          "item": "金块",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "name": "锡鱼罐",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1345",
+      "ingredients": [
+        {
+          "item": "绳子",
+          "quantity": 3
+        },
+        {
+          "item": "石砖",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "海钓竿",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1346",
+      "ingredients": [
+        {
+          "item": "蜘蛛丝",
+          "quantity": 3
+        },
+        {
+          "item": "木板",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "鱼类计重器",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1347",
+      "ingredients": [
+        {
+          "item": "蜘蛛丝",
+          "quantity": 3
+        },
+        {
+          "item": "木板",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "船只补丁",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1348",
+      "ingredients": [
+        {
+          "item": "木头",
+          "quantity": 2
+        },
+        {
+          "item": "蜂刺",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "船套件",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1349",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "name": "桅杆套件",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1350",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 3
+        },
+        {
+          "item": "绳子",
+          "quantity": 3
+        },
+        {
+          "item": "蜘蛛丝",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "name": "舵轮套件",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1351",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 2
+        },
+        {
+          "item": "绳子",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "锚套件",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1352",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 2
+        },
+        {
+          "item": "绳子",
+          "quantity": 3
+        },
+        {
+          "item": "石砖",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "name": "弹簧秤",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1353",
+      "ingredients": [
+        {
+          "item": "木头",
+          "quantity": 1
+        },
+        {
+          "item": "石砖",
+          "quantity": 1
+        },
+        {
+          "item": "金块",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "木球浮漂",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1354",
+      "ingredients": [
+        {
+          "item": "木头",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "硬物浮漂",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1355",
+      "ingredients": [
+        {
+          "item": "浮木桩",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "黑羽浮漂",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1356",
+      "ingredients": [
+        {
+          "item": "乌鸦羽毛",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "红羽浮漂",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1357",
+      "ingredients": [
+        {
+          "item": "红鸟羽毛",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "蓝羽浮漂",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1358",
+      "ingredients": [
+        {
+          "item": "雪鸟羽毛",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "金羽浮漂",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1359",
+      "ingredients": [
+        {
+          "item": "金丝鸟羽毛",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "羽绒浮漂",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1360",
+      "ingredients": [
+        {
+          "item": "驼鹿鹅羽毛",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "邪天翁浮漂",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1361",
+      "ingredients": [
+        {
+          "item": "邪天翁羽毛",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "麻醉鱼饵",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1362",
+      "ingredients": [
+        {
+          "item": "饼干切割机外壳",
+          "quantity": 1
+        },
+        {
+          "item": "蜂刺",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "日出匙形假饵",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1363",
+      "ingredients": [
+        {
+          "item": "燧石",
+          "quantity": 1
+        },
+        {
+          "item": "采摘的红蘑菇",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "黄昏匙形假饵",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1364",
+      "ingredients": [
+        {
+          "item": "燧石",
+          "quantity": 1
+        },
+        {
+          "item": "采摘的绿蘑菇",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "夜间匙形假饵",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1365",
+      "ingredients": [
+        {
+          "item": "燧石",
+          "quantity": 1
+        },
+        {
+          "item": "采摘的蓝蘑菇",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "雨天鱼饵",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1369",
+      "ingredients": [
+        {
+          "item": "饼干切割机外壳",
+          "quantity": 1
+        },
+        {
+          "item": "蚊子血囊",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "雪天鱼饵",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1370",
+      "ingredients": [
+        {
+          "item": "饼干切割机外壳",
+          "quantity": 1
+        },
+        {
+          "item": "冰",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "重量级鱼饵",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1371",
+      "ingredients": [
+        {
+          "item": "饼干切割机外壳",
+          "quantity": 1
+        },
+        {
+          "item": "牛毛",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "夹夹绞盘",
+      "kind": "craft",
+      "category": "航海",
+      "source": "handbook-tools",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=1376&detail_id=1374",
+      "ingredients": [
+        {
+          "item": "木板",
+          "quantity": 2
+        },
+        {
+          "item": "石砖",
+          "quantity": 1
+        },
+        {
+          "item": "绳子",
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "creatures": [
+    {
+      "name": "鼹鼠",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=386",
+      "drops": [
+        "小肉"
+      ]
+    },
+    {
+      "name": "兔子",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=641",
+      "drops": [
+        "小肉"
+      ]
+    },
+    {
+      "name": "猪人",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=637",
+      "drops": [
+        "肉",
+        "猪皮"
+      ]
+    },
+    {
+      "name": "狂暴猪人",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=739",
+      "drops": [
+        "肉",
+        "猪皮"
+      ]
+    },
+    {
+      "name": "猪人守卫",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=602",
+      "drops": [
+        "肉",
+        "猪皮"
+      ]
+    },
+    {
+      "name": "猪王",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=636",
+      "drops": [
+        "金块"
+      ]
+    },
+    {
+      "name": "蜘蛛",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=663",
+      "drops": [
+        "怪物肉",
+        "蜘蛛丝",
+        "蜘蛛腺体"
+      ]
+    },
+    {
+      "name": "蜘蛛战士",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=665",
+      "drops": [
+        "怪物肉",
+        "蜘蛛丝",
+        "蜘蛛腺体"
+      ]
+    },
+    {
+      "name": "皮弗娄牛",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=541",
+      "drops": [
+        "肉",
+        "牛毛",
+        "牛角"
+      ]
+    },
+    {
+      "name": "猎犬",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=604",
+      "drops": [
+        "肉",
+        "犬牙"
+      ]
+    },
+    {
+      "name": "冰猎犬",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=548",
+      "drops": [
+        "肉",
+        "犬牙",
+        "蓝宝石"
+      ]
+    },
+    {
+      "name": "火猎犬",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=643",
+      "drops": [
+        "肉",
+        "犬牙",
+        "灰烬",
+        "红宝石"
+      ]
+    },
+    {
+      "name": "海象人",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=618",
+      "drops": [
+        "肉",
+        "海象人的贝雷帽",
+        "吹箭",
+        "海象牙"
+      ]
+    },
+    {
+      "name": "小海象人",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=678",
+      "drops": [
+        "肉"
+      ]
+    },
+    {
+      "name": "企鸥",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=635",
+      "drops": [
+        "肉"
+      ]
+    },
+    {
+      "name": "鱼人",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=622",
+      "drops": [
+        "鱼",
+        "蛙腿"
+      ]
+    },
+    {
+      "name": "触手",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=669",
+      "drops": [
+        "怪物肉",
+        "狼牙棒",
+        "触手皮"
+      ]
+    },
+    {
+      "name": "大触手",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=543",
+      "drops": [
+        "狼牙棒",
+        "触手皮",
+        "荧光果",
+        "蜗牛黏液",
+        "石头"
+      ]
+    },
+    {
+      "name": "闪电羊",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=676",
+      "drops": [
+        "肉",
+        "闪电羊角"
+      ]
+    },
+    {
+      "name": "钢羊",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=582",
+      "drops": [
+        "肉",
+        "钢丝棉",
+        "脓鼻涕"
+      ]
+    },
+    {
+      "name": "考拉象",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=612",
+      "drops": [
+        "肉",
+        "象鼻"
+      ]
+    },
+    {
+      "name": "曼德拉草",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=620",
+      "drops": [
+        "曼德拉草"
+      ]
+    },
+    {
+      "name": "火鸡",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=598",
+      "drops": [
+        "小肉"
+      ]
+    },
+    {
+      "name": "高脚鸟",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=668",
+      "drops": [
+        "肉"
+      ]
+    },
+    {
+      "name": "小高脚鸟",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=659",
+      "drops": [
+        "小肉"
+      ]
+    },
+    {
+      "name": "青年高脚鸟",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1036",
+      "drops": [
+        "肉"
+      ]
+    },
+    {
+      "name": "角蛙",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=589",
+      "drops": [
+        "蛙腿"
+      ]
+    },
+    {
+      "name": "发条骑士",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=563",
+      "drops": [
+        "齿轮"
+      ]
+    },
+    {
+      "name": "损坏的发条骑士",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=572",
+      "drops": [
+        "齿轮",
+        "铥矿碎片",
+        "噩梦燃料"
+      ]
+    },
+    {
+      "name": "发条主教",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=562",
+      "drops": [
+        "齿轮",
+        "紫宝石"
+      ]
+    },
+    {
+      "name": "损坏的发条主教",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=571",
+      "drops": [
+        "齿轮",
+        "铥矿碎片",
+        "紫宝石"
+      ]
+    },
+    {
+      "name": "小皮弗娄牛",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=535",
+      "drops": [
+        "肉",
+        "牛毛",
+        "牛角"
+      ]
+    },
+    {
+      "name": "食人花",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=621",
+      "drops": [
+        "叶肉",
+        "食人花种子"
+      ]
+    },
+    {
+      "name": "桦木果精",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=544",
+      "drops": [
+        "树枝"
+      ]
+    },
+    {
+      "name": "尖壳蜗牛",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=657",
+      "drops": [
+        "蜗牛黏液",
+        "蜗壳碎片",
+        "蜗牛帽"
+      ]
+    },
+    {
+      "name": "圆壳蜗牛",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=662",
+      "drops": [
+        "蜗牛黏液",
+        "蜗壳碎片",
+        "蜗壳护甲"
+      ]
+    },
+    {
+      "name": "无眼鹿",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=634",
+      "drops": [
+        "肉",
+        "骨头碎片"
+      ]
+    },
+    {
+      "name": "草地壁虎",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=600",
+      "drops": [
+        "叶肉",
+        "草"
+      ]
+    },
+    {
+      "name": "驼鹿鹅幼崽",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=628",
+      "drops": [
+        "肉",
+        "鸟腿",
+        "驼鹿鹅羽毛"
+      ]
+    },
+    {
+      "name": "坎普斯",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=613",
+      "drops": [
+        "怪物肉",
+        "木炭"
+      ]
+    },
+    {
+      "name": "红宝石鹿",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1048",
+      "drops": [
+        "肉",
+        "红宝石"
+      ]
+    },
+    {
+      "name": "蓝宝石鹿",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1049",
+      "drops": [
+        "肉",
+        "蓝宝石"
+      ]
+    },
+    {
+      "name": "海象人百夫长",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1050",
+      "drops": [
+        "肉",
+        "海象人的贝雷帽",
+        "吹箭",
+        "海象牙"
+      ]
+    },
+    {
+      "name": "海象喽啰",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1051",
+      "drops": [
+        "肉",
+        "海象人的贝雷帽",
+        "吹箭",
+        "海象牙"
+      ]
+    },
+    {
+      "name": "裸鼹蝠",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=691",
+      "drops": [
+        "怪物肉",
+        "裸露鼻孔"
+      ]
+    },
+    {
+      "name": "沙拉蝾螈",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=647",
+      "drops": [
+        "叶肉"
+      ]
+    },
+    {
+      "name": "胡萝卜鼠",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=554",
+      "drops": [
+        "叶肉",
+        "种子"
+      ]
+    },
+    {
+      "name": "恐怖猎犬",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=603",
+      "drops": [
+        "怪物肉",
+        "犬牙"
+      ]
+    },
+    {
+      "name": "月岩企鸥",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=626",
+      "drops": [
+        "怪物肉",
+        "冰"
+      ]
+    },
+    {
+      "name": "变异角蛙",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1055",
+      "drops": [
+        "蛙腿"
+      ]
+    },
+    {
+      "name": "冰壳蜘蛛",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1056",
+      "drops": [
+        "蜘蛛腺体",
+        "蜘蛛丝",
+        "蓝宝石",
+        "冰"
+      ]
+    },
+    {
+      "name": "接地触手",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=536",
+      "drops": [
+        "活木"
+      ]
+    },
+    {
+      "name": "伊格纳",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1058",
+      "drops": [
+        "紫宝石",
+        "红宝石",
+        "齿轮"
+      ]
+    },
+    {
+      "name": "锻炉爵士",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1060",
+      "drops": [
+        "红宝石",
+        "齿轮"
+      ]
+    },
+    {
+      "name": "大步雷",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1064",
+      "drops": [
+        "怪物肉",
+        "蜘蛛丝",
+        "蜘蛛腺体",
+        "闪电羊角"
+      ]
+    },
+    {
+      "name": "贝雷胡德",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1066",
+      "drops": [
+        "海象人的贝雷帽",
+        "吹箭",
+        "海象牙"
+      ]
+    },
+    {
+      "name": "哞哞雪糕",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1067",
+      "drops": [
+        "肉",
+        "牛毛",
+        "牛角",
+        "蓝宝石"
+      ]
+    },
+    {
+      "name": "灼丝蜘蛛",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1069",
+      "drops": [
+        "蜘蛛腺体",
+        "蜘蛛丝",
+        "红宝石"
+      ]
+    },
+    {
+      "name": "蝴蝶",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=551",
+      "drops": [
+        "蝴蝶翅膀",
+        "黄油"
+      ]
+    },
+    {
+      "name": "蜜蜂",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=539",
+      "drops": [
+        "蜂蜜",
+        "蜂刺"
+      ]
+    },
+    {
+      "name": "蜇人蜂",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1071",
+      "drops": [
+        "蜂蜜",
+        "蜂刺"
+      ]
+    },
+    {
+      "name": "嗡嗡蜜蜂",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=601",
+      "drops": [
+        "蜂刺"
+      ]
+    },
+    {
+      "name": "乌鸦",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=570",
+      "drops": [
+        "小肉",
+        "乌鸦羽毛"
+      ]
+    },
+    {
+      "name": "红鸟",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1073",
+      "drops": [
+        "小肉",
+        "红鸟羽毛"
+      ]
+    },
+    {
+      "name": "雪鸟",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1074",
+      "drops": [
+        "小肉",
+        "雪鸟羽毛"
+      ]
+    },
+    {
+      "name": "金丝鸟",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1075",
+      "drops": [
+        "小肉",
+        "金丝鸟羽毛"
+      ]
+    },
+    {
+      "name": "秃毛鸟",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1076",
+      "drops": [
+        "小肉",
+        "鸟腿",
+        "乌鸦羽毛"
+      ]
+    },
+    {
+      "name": "蚊子",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=629",
+      "drops": [
+        "蚊子血囊"
+      ]
+    },
+    {
+      "name": "海鹦鹉",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=640",
+      "drops": [
+        "小肉",
+        "乌鸦羽毛"
+      ]
+    },
+    {
+      "name": "果蝇王",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=693",
+      "drops": [
+        "叶肉",
+        "种子",
+        "友好果蝇果"
+      ]
+    },
+    {
+      "name": "莽撞飞鼠",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1081",
+      "drops": [
+        "怪物肉",
+        "飞鼠棒"
+      ]
+    },
+    {
+      "name": "大眼鹏",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1083",
+      "drops": [
+        "肉"
+      ]
+    },
+    {
+      "name": "独眼巨鹿",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=578",
+      "drops": [
+        "肉",
+        "独眼巨鹿眼球"
+      ]
+    },
+    {
+      "name": "蜂后",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1084",
+      "drops": [
+        "蜂蜜",
+        "蜂刺",
+        "蜂巢",
+        "蜂后帽",
+        "蜂王浆"
+      ]
+    },
+    {
+      "name": "蜘蛛女王",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=664",
+      "drops": [
+        "怪物肉",
+        "蜘蛛丝",
+        "蜘蛛帽",
+        "蜘蛛卵"
+      ]
+    },
+    {
+      "name": "座狼",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=674",
+      "drops": [
+        "怪物肉",
+        "犬牙"
+      ]
+    },
+    {
+      "name": "暗影骑士",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=652",
+      "drops": [
+        "噩梦燃料",
+        "暗夜剑",
+        "暗夜甲"
+      ]
+    },
+    {
+      "name": "暗影主教",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=651",
+      "drops": [
+        "噩梦燃料",
+        "暗夜剑",
+        "暗夜甲"
+      ]
+    },
+    {
+      "name": "暗影战车",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=653",
+      "drops": [
+        "噩梦燃料",
+        "暗夜剑",
+        "暗夜甲"
+      ]
+    },
+    {
+      "name": "远古守护者",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=532",
+      "drops": [
+        "肉",
+        "守护者之角"
+      ]
+    },
+    {
+      "name": "树精守卫",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=672",
+      "drops": [
+        "活木",
+        "怪物肉"
+      ]
+    },
+    {
+      "name": "树精守卫(粗壮)",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1093",
+      "drops": [
+        "活木",
+        "怪物肉"
+      ]
+    },
+    {
+      "name": "狂暴熊獾",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=538",
+      "drops": [
+        "肉",
+        "熊皮"
+      ]
+    },
+    {
+      "name": "麋鹿鹅",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=627",
+      "drops": [
+        "肉",
+        "鸟腿",
+        "驼鹿鹅羽毛"
+      ]
+    },
+    {
+      "name": "蚁狮",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=534",
+      "drops": [
+        "肉",
+        "石头"
+      ]
+    },
+    {
+      "name": "龙蝇",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=581",
+      "drops": [
+        "肉",
+        "鳞片",
+        "金块",
+        "蓝宝石",
+        "红宝石",
+        "紫宝石",
+        "绿宝石",
+        "橙宝石",
+        "黄宝石"
+      ]
+    },
+    {
+      "name": "毒菌蟾蜍",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=671",
+      "drops": [
+        "蛙腿",
+        "肉",
+        "采摘的红蘑菇",
+        "采摘的蓝蘑菇",
+        "采摘的绿蘑菇",
+        "蘑菇皮"
+      ]
+    },
+    {
+      "name": "悲惨的毒菌蟾蜍",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=623",
+      "drops": [
+        "蛙腿",
+        "肉",
+        "采摘的红蘑菇",
+        "采摘的蓝蘑菇",
+        "采摘的绿蘑菇",
+        "蘑菇皮"
+      ]
+    },
+    {
+      "name": "远古织影者",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=531",
+      "drops": [
+        "噩梦燃料",
+        "暗影心房",
+        "化石碎片"
+      ]
+    },
+    {
+      "name": "复活的骨架(绿)",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=642",
+      "drops": [
+        "噩梦燃料",
+        "暗影心房",
+        "化石碎片"
+      ]
+    },
+    {
+      "name": "复活的骨架(紫)",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1106",
+      "drops": [
+        "噩梦燃料",
+        "暗影心房",
+        "化石碎片"
+      ]
+    },
+    {
+      "name": "大熔炉猪战士",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1107",
+      "drops": [
+        "肉"
+      ]
+    },
+    {
+      "name": "犀牛兄弟",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1108",
+      "drops": [
+        "肉"
+      ]
+    },
+    {
+      "name": "地狱独眼巨猪",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1109",
+      "drops": [
+        "肉"
+      ]
+    },
+    {
+      "name": "蝶鸟",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1110",
+      "drops": [
+        "花瓣",
+        "黄油",
+        "蝴蝶翅膀"
+      ]
+    },
+    {
+      "name": "蛙王子",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1111",
+      "drops": [
+        "噩梦燃料"
+      ]
+    },
+    {
+      "name": "拉莫克斯",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1112",
+      "drops": [
+        "噩梦燃料"
+      ]
+    },
+    {
+      "name": "克劳斯",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=611",
+      "drops": [
+        "怪物肉",
+        "木炭",
+        "麋鹿茸"
+      ]
+    },
+    {
+      "name": "邪天翁",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=619",
+      "drops": [
+        "肉",
+        "邪天翁喙",
+        "邪天翁羽毛",
+        "蓝宝石",
+        "黄宝石"
+      ]
+    },
+    {
+      "name": "帝王蟹",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=567",
+      "drops": [
+        "肉",
+        "藤壶",
+        "低音贝壳钟",
+        "中音贝壳钟",
+        "高音贝壳钟",
+        "刺耳三叉戟"
+      ]
+    },
+    {
+      "name": "浣猫",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=555",
+      "drops": [
+        "肉",
+        "石头"
+      ]
+    },
+    {
+      "name": "格罗姆",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=596",
+      "drops": [
+        "怪物肉",
+        "格罗姆翅膀",
+        "格罗姆黏液"
+      ]
+    },
+    {
+      "name": "洞穴蜘蛛",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=556",
+      "drops": [
+        "蜘蛛丝",
+        "蜘蛛腺体",
+        "怪物肉"
+      ]
+    },
+    {
+      "name": "喷射蜘蛛",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=666",
+      "drops": [
+        "蜘蛛丝",
+        "蜘蛛腺体",
+        "怪物肉"
+      ]
+    },
+    {
+      "name": "穴居蜘蛛",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=575",
+      "drops": [
+        "蜘蛛丝",
+        "蜘蛛腺体",
+        "怪物肉"
+      ]
+    },
+    {
+      "name": "暴躁猴",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=667",
+      "drops": [
+        "肉",
+        "噩梦燃料",
+        "洞穴香蕉"
+      ]
+    },
+    {
+      "name": "暴躁猴(黑)",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1120",
+      "drops": [
+        "肉",
+        "噩梦燃料",
+        "洞穴香蕉",
+        "胡须"
+      ]
+    },
+    {
+      "name": "兔人",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=550",
+      "drops": [
+        "肉",
+        "胡萝卜",
+        "兔绒"
+      ]
+    },
+    {
+      "name": "兔人(黑)",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1123",
+      "drops": [
+        "怪物肉",
+        "胡须"
+      ]
+    },
+    {
+      "name": "石虾",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=645",
+      "drops": [
+        "肉",
+        "石头",
+        "硝石"
+      ]
+    },
+    {
+      "name": "洞穴蠕虫",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=579",
+      "drops": [
+        "怪物肉",
+        "发光蓝莓"
+      ]
+    },
+    {
+      "name": "洞穴飞鼠",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1124",
+      "drops": [
+        "怪物肉",
+        "鸟粪"
+      ]
+    },
+    {
+      "name": "啜食者",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=656",
+      "drops": [
+        "荧光果",
+        "啜食者皮"
+      ]
+    },
+    {
+      "name": "寄生蠕虫",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1126",
+      "drops": [
+        "怪物肉",
+        "发光蓝莓",
+        "活木"
+      ]
+    },
+    {
+      "name": "蔓雾石虾",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1128",
+      "drops": [
+        "肉",
+        "石头",
+        "燧石",
+        "活木"
+      ]
+    },
+    {
+      "name": "爬行暗影怪",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1131",
+      "drops": [
+        "噩梦燃料"
+      ]
+    },
+    {
+      "name": "恐怖尖嘴怪",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=1132",
+      "drops": [
+        "噩梦燃料"
+      ]
+    },
+    {
+      "name": "饼干切割机",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=565",
+      "drops": [
+        "怪物肉",
+        "饼干切割机外壳"
+      ]
+    },
+    {
+      "name": "一角鲸",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=597",
+      "drops": [
+        "生鱼肉",
+        "一角鲸的角"
+      ]
+    },
+    {
+      "name": "岩石大白鲨",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=683",
+      "drops": [
+        "生鱼肉"
+      ]
+    },
+    {
+      "name": "月光龙虾",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=617",
+      "drops": [
+        "月亮碎片"
+      ]
+    },
+    {
+      "name": "鱿鱼",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=655",
+      "drops": [
+        "怪物肉",
+        "荧光果"
+      ]
+    },
+    {
+      "name": "海黾",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=706",
+      "drops": [
+        "怪物肉",
+        "蜘蛛腺体",
+        "蜘蛛丝"
+      ]
+    },
+    {
+      "name": "草鳄鱼",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=707",
+      "drops": [
+        "叶肉",
+        "草",
+        "树枝"
+      ]
+    },
+    {
+      "name": "海草",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=682",
+      "drops": [
+        "种壳",
+        "海芽插穗"
+      ]
+    },
+    {
+      "name": "发条战车",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=564",
+      "drops": [
+        "齿轮"
+      ]
+    },
+    {
+      "name": "损坏的发条战车",
+      "sourceUrl": "https://a.4399.cn/starve/tools/collection?tab=2&detail_id=573",
+      "drops": [
+        "齿轮"
+      ]
+    }
+  ]
+}
