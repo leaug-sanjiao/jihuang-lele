@@ -75,7 +75,9 @@ npm.cmd run data:wiki -- --html-dir .\wiki-html
 
 ## Cloudflare Pages
 
-已预留 wrangler.toml 和 .node-version。项目只需要静态资源。
+推送到 `main` 后，GitHub Actions 使用 `.node-version` 中的 Node 版本安装依赖、构建静态文件，然后用 Wrangler 将 `dist` 发布到现有的 Pages 项目。也可在 Actions 的「部署荒野合成手册」中选择 `main` 手动运行。
+
+在仓库 Settings → Secrets and variables → Actions 中设置 Secret `CLOUDFLARE_API_TOKEN`（目标账户的 Cloudflare Pages 编辑权限）和 Variable `CLOUDFLARE_ACCOUNT_ID`（该账户的 ID）。发布使用 `.github/workflows/deploy-pages.yml`。
 
 | Pages 设置 | 值 |
 | --- | --- |
