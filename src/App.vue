@@ -147,10 +147,10 @@ const matchingMaterials = computed(() => {
 
 function status(recipe: Recipe, times = 1) {
   if (!recipe.ingredients) {
-    return { label: recipe.kind === 'craft' ? '待实机核对' : '参考条目', tone: 'neutral' }
+    return { label: recipe.kind === 'craft' ? '待实机核对' : '参考条目', tone: 'neutral quiet' }
   }
   const count = findMissing(recipe, bag.value, times).length
-  if (count) return { label: '缺 ' + count + ' 种材料', tone: 'amber' }
+  if (count) return { label: '缺 ' + count + ' 种材料', tone: 'amber quiet' }
   if (recipe.kind === 'cook') return { label: '食材齐', tone: 'green' }
   if (!recipe.technology) return { label: '材料齐 · 科技待查', tone: 'neutral' }
   if (recipe.technology.some(item => !tech.value.includes(item))) {
@@ -535,7 +535,8 @@ function showBag() {
                 </div>
                 <ul class="ingredients">
                   <li class="ingredient-labels" aria-hidden="true"><span>材料</span><span>背包 / 需求</span></li>
-                  <li v-for="entry in selected.ingredients" :key="entry.item">
+                  <li v-for="entry in selected.ingredients" :key="entry.item"
+                    :style="{ '--stock': Math.min(1, (bag[entry.item] ?? 0) / (entry.quantity * batches)) }">
                     <button type="button" class="text-action" :aria-label="'反查' + entry.item"
                       @click="chooseMaterial(entry.item)">{{ entry.item }}</button>
                     <div class="ingredient-stock" :class="{ enough: (bag[entry.item] ?? 0) >= entry.quantity * batches }">
